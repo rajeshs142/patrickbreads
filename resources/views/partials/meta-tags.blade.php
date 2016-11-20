@@ -1,0 +1,5 @@
+@section('title', $title)
+@section('og-title', $ogtitle)
+@section('og-type', $ogtype)
+@section('og-description', $ogdescription)
+@section('og-img', '/img/hero1.png')
