@@ -13,8 +13,8 @@
     
     <link rel="icon" type="image/png" href="/img/hero1.png">
 
-    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700">
+    <link href="//fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:100,300,400,700">
     <link rel="stylesheet" href="{{ elixir("css/all.css") }}">
 </head>
 <body id="app-layout" class="@yield('body_class')">
