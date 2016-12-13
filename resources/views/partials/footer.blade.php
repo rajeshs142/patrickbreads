@@ -1,6 +1,9 @@
 <footer class="container-fluid section-padding" @include('partials.styles', ['styles' => $footerStyles])>
     <div class="col-sm-6 social">
-        <h2 class="footer-logo">{{ env('BRAND_NAME') }}</h2>
+        <h2 class="footer-logo">
+            <img src="/img/pb_logo.png" width="35px">
+            <img src="/img/pb_text.png" width="160px">
+        </h2>
         <ul class="contact">
             @foreach ($footerConfig as $f)
                 @if (isset($f['url']) && isset($f['title']))

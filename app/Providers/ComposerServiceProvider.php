@@ -41,6 +41,10 @@ class ComposerServiceProvider extends ServiceProvider
             'layouts.app',
             'App\Http\ViewComposers\NavComposer'
         );
+        view()->composer(
+            'partials.nav_top',
+            'App\Http\ViewComposers\NavComposer'
+        );
         // banner
         view()->composer(
             'partials.banner',

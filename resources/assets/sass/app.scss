@@ -5,12 +5,11 @@
 }
 .hero-wrapper {
     position: relative;
-    top: 35%;
     text-align: center;
-    margin: 0;
-    padding-top: 12px;
     color: white;
-    font-family: 'Cookie',cursive;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }
 body {
     font-family: 'Lato', 'Helvetica';
@@ -22,6 +21,9 @@ body {
     color: white;
     letter-spacing: 1px;
     font-variant-caps: small-caps;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
 }
 .navbar-inverse {
     background-color: black;
@@ -259,12 +261,13 @@ footer a:hover {
     transition: all 500ms;
 }
 .hero-single img{
-    width: 100%;
+ //   width: 100%;
 }
 .hero-single {
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
+    display: flex;
 }
 .slick-dotted.slick-slider {
     margin-bottom: 4%;
@@ -277,11 +280,6 @@ footer a:hover {
     .slick-dotted.slick-slider {
         margin-bottom: 15%;
     }
-}
-.hide-header .navbar {
-    display: none;
-    visibility: hidden;
-    opacity: 0;
 }
 .parallax {
     background-image: url('/img/parallax1.jpg');
@@ -372,6 +370,8 @@ footer a:hover {
     }
 }
 .story {
+    z-index: 1;
+    position: relative;
     text-align:center;
     padding-left: 30%;
     padding-right: 30%;
@@ -418,11 +418,16 @@ footer a:hover {
     color: inherit;
     font-weight: 600;
 }
-.navbar {
-    display: block;
-    visibility: visible;
-    opacity: 1;
-    transition: all 400ms;
+.hide-header .navbar {
+    display: none;
+}
+@media (min-width : 768px) {
+    .search-icon {
+        display: none;
+    }
+    .search-wrapper {
+        display: block;
+    }
 }
 .product-single {
     background: #fafafa;
@@ -527,9 +532,15 @@ footer a:hover {
 }
 
 
-@media only screen and (max-width : 767px) {
+@media only all and (max-width : 767px) {
     .product-single .item {
         padding: 0;
+    }
+    .hero-wrapper {
+        font-size: 30px;
+    }
+    .hero-brand {
+        font-size: 40px;
     }
 }
 .ta-c {
@@ -537,4 +548,54 @@ footer a:hover {
 }
 .admin {
     padding-top: 71px;
+}
+
+.nav-transparent li a:focus, .nav-transparent li a:hover,
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: black;
+    background-color: white;
+    transition: background 600ms;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-shadow: none;
+}
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+.search-icon {
+    color: white;
+    font-size: 20px;
+    vertical-align: middle;
+    display: inline-block;
+    line-height: 32px;
+}
+.nav-transparent {
+    text-align: center;
+    background: transparent;
+    position: absolute;
+    color: white;
+    z-index: 2;
+    right: 0;
+    left: 0;
+    font-size: 14px;
+    text-shadow: 0 0 1px black;
+    top: 40px;
+}
+.nav-transparent li {
+    display: inline-block;
+    padding: 0 10px;
+    color: white;
+}
+.nav-transparent li a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-variant-caps: small-caps;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.hero-btn {
+    margin-top: 30px;
 }

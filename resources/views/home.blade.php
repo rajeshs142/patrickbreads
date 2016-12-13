@@ -6,6 +6,7 @@
 
 @section('content')
 <main>
+    @include('partials.nav_top')
     @include('partials.hero')
     @include('partials.story')
     @include('partials.parallax')

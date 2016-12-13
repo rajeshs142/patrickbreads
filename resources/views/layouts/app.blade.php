@@ -11,7 +11,9 @@
     <meta property=”og:image” content=”@yield('og-img')”/>
     <meta property=”og:description” content=”@yield('og-description')">
     
-    <link rel="icon" type="image/png" href="/img/hero1.png">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    
+    <link rel="icon" type="image/png" href="/img/pb_logo_dark.png">
 
     <link href="//fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:100,300,400,700">

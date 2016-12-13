@@ -5,7 +5,7 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        @include('partials.searchform')
+        @include('partials.searchform', ['searchStyle' => 'navbar-left'])
         <ul class="nav navbar-nav navbar-right" @include('partials.styles', ['styles' => $navStyles])>
             @foreach($nav as $item)
                 @if(count($item['children']) > 0)
@@ -26,12 +26,6 @@
                     </li>
                 @endif
             @endforeach
-            <li class="nav-more dropdown">
-                <a role="button" href="#" data-toggle="dropdown" class="dropdown-toggle more-lnk">
-              More <span class="caret"></span>
-            </a>
-                <ul id="submenu" class="dropdown-menu"></ul>
-            </li>
         </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

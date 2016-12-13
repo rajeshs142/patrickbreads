@@ -21,6 +21,7 @@ class StylesComposer
         $bannerStyles = Config::get('styles.banner');
         $footerStyles = Config::get('styles.footer');
         $navStyles = Config::get('styles.nav');
+        $navTopStyles = Config::get('styles.nav-top');
         $galleryStyles = Config::get('styles.gallery');
         $heroStyles = Config::get('styles.hero');
         $herotextStyles = Config::get('styles.herotext');
@@ -34,6 +35,7 @@ class StylesComposer
             'galleryStyles' => $galleryStyles,
             'footerStyles' => $footerStyles,
             'navStyles' => $navStyles,
+            'navTopStyles' => $navTopStyles,
             'bannerStyles' => $bannerStyles,
             'headerStyles' => $headerStyles,
             'heroStyles' => $heroStyles,

@@ -5,5 +5,18 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href="{{ url('/') }}" data-text="{{ env('BRAND_NAME') }}">{{ env('BRAND_NAME') }}</a>
+    <a class="navbar-brand" href="{{ url('/') }}" data-text="{{ env('BRAND_NAME') }}">
+        
+        <img src="/img/pb_logo.png" width="35px" style="
+            position: relative;
+            top: -6px;
+            display: inline;
+        ">
+        <img src="/img/pb_text.png" width="160px" style="
+            top: -6px;
+            position: relative;
+            width: 200px;
+            display: inline;
+        ">
+    </a>
 </div>

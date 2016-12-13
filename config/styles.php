@@ -3,6 +3,7 @@ return [
     'banner' => [],
     'header' => [],
     'nav' => [],
+    'nav-top' => [],
     'hero' => [],
     'herotext' => [],
     'story' => [],

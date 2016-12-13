@@ -82,6 +82,5 @@ return [
     'url' => 'URL',
     'users' => 'Users',
     'user' => 'User',
-    'vyakhya' => 'Vyakhya',
     'writer' => 'Writer'
 ];

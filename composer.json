@@ -8,7 +8,9 @@
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
         "cviebrock/eloquent-sluggable": "^4.0",
-        "cocur/slugify": "^2.3"
+        "cocur/slugify": "^2.3",
+        "greggilbert/recaptcha": "^2.0",
+        "laravel/socialite": "^2.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
