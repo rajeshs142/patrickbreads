@@ -21,43 +21,29 @@ class FooterController extends Controller
             'email' => 'required',
             'g-recaptcha-response' => 'required|recaptcha'
         ]);
-            
-        // $this->validate($request, [
-//             'name' => 'required',
-//             'message' => 'required',
-//             'email' => 'required',
-//             'g-recaptcha-response' => 'required|recaptcha'
-//         ]);
-            if($validator->fails()) {
-                $errors = $validator->errors();
-                $errors =  json_decode($errors); 
-                
-                return response()->json([
-                    'success' => false,
-                    'message' => $errors
-                ], 422);//->withCallback('error');
-            }
-            else {
-                $data = Input::all();
-                if($data) {
-                    Mail::send('partials.feedback_message', ['data' => $data], function($message) use ($data) {
-                        $message->from($data['email'], $data['name']);
-                        $message->to('tech@patricksbreads.com.au', 'tech')->subject('feedback from '.$data['name']);
-                    });
-                }
-                return response()->json([
-                    'success' => true,
-                    'message' => 'Email sent successfully.'
-                        ]);//->withCallback('success');
-            }
 
-//         $errors = $validation->errors();
-//         $errors =  json_decode($errors);
-
-        
-        
+        if($validator->fails()) {
+            $errors = $validator->errors();
+            $errors =  json_decode($errors); 
             
-        //return redirect()->action('HomeController@index');
+            return response()->json([
+                'success' => false,
+                'message' => $errors
+            ], 422);
+        }
+        else {
+            $data = Input::all();
+            if($data) {
+                Mail::send('partials.feedback_message', ['data' => $data], function($message) use ($data) {
+                    $message->from($data['email'], $data['name']);
+                    $message->to(env('MAIL_USERNAME'), env('MAIL_NAME'))->subject('feedback from '.$data['name']);
+                });
+            }
+            return response()->json([
+                'success' => true,
+                'message' => 'Email sent successfully.'
+            ]);
+        }
     }
     
     public function footerstore(Request $request)
@@ -71,7 +57,7 @@ class FooterController extends Controller
         if($data) {
             Mail::send('partials.feedback_message', ['data' => $data], function($message) use ($data) {
                 $message->from($data['email'], $data['name']);
-                $message->to('tech@patricksbreads.com.au', 'tech')->subject('feedback from '.$data['name']);
+                $message->to(env('MAIL_USERNAME'), env('MAIL_NAME'))->subject('feedback from '.$data['name']);
             });
         }
         return redirect()->action('HomeController@index');

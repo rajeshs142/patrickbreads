@@ -6,8 +6,8 @@
     </h1>
 @else
     <h1 class="hero-wrapper col-sm-6" @include('partials.styles', ['styles' => $herotextStyles])>
-        <div style="padding-bottom: 40px;">
-            <img src="/img/pb_logo_text.png" height="100px" width="300px">
+        <div class="hero-brand">
+            <img src="/img/pb_logo_text.png">
         </div>
         <div>BUILD YOUR BUSNESS WITH US.</div>
         <div>

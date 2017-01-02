@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default navbar-inverse navbar-fixed-top container-fluid">
+<nav class="navbar navbar-default navbar-fixed-top container-fluid">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
      @include('partials.header')
