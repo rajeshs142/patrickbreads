@@ -1,8 +1,8 @@
 <footer class="row section-padding" @include('partials.styles', ['styles' => $footerStyles])>
     <div class="col-sm-6 social">
         <h2 class="footer-logo">
-            <img src="/img/pb_logo.png" width="35px">
-            <img src="/img/pb_text.png" width="160px">
+            <img src="/img/breads_g_w.png" width="50px">
+            <img src="/img/pb_logo_g1_w.png" i="" width="100px">
         </h2>
         <ul class="contact">
             @foreach ($footerConfig as $f)
