@@ -3,8 +3,8 @@
   	<form  action="/contact/store" method="post" class="contact-form form-horizontal">
         <div class="modal-content">
           <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             <h4 class="modal-title" id="customerFeedbackLabel">Become our customer today.</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
           </div>
           <div class="modal-body">
         	  	<div class="form-group email{{ $errors->has('email') ? ' has-error' : '' }}">

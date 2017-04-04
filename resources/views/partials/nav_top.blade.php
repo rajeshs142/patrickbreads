@@ -7,7 +7,6 @@
             <li class="dropdown">
                 <a href="{{ $item->link }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                     {{ $item->title }}
-                    <span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu">
                     @foreach($item['children'] as $child)

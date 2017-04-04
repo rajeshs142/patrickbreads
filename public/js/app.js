@@ -1,6 +1,7 @@
 $(function() {
     
-    
+   /* search fuctioality */ 
+  /*
       $('.search-icon').on('click', function() {
           $('.search-icon').addClass('hidden');
           $('.search-wrapper').removeClass('hidden');
@@ -25,9 +26,9 @@ $(function() {
               $('.search-wrapper-nav-top').addClass('hidden');
           }
       });
-      
+     */ 
       /* header */
-      var headerEl = $('.site-header');
+      var headerEl = $('.navbar');
       var bodyEl = $('body');
       var viewportHeight = $(window).height();
       var headerShowHeight = headerEl.attr('data-viewport') || viewportHeight;
@@ -38,20 +39,22 @@ $(function() {
       $(window).scroll(function() {
           
           // show or hide header
-          if (document.body.classList.contains('home')) {
-              if (document.body.scrollTop > 650) {
-                  if (document.body.scrollTop > 652) {
-                      if (document.body.classList.contains('hide-header')) {
-                          document.body.classList.remove('hide-header');
+              if (document.body.scrollTop > headerShowHeight-10) {
+                  if (!document.body.classList.contains('adjust-header')) {
+                      document.body.classList.add('adjust-header');
+                  }
+                  if (document.body.scrollTop > headerShowHeight) {
+                      if (!document.body.classList.contains('show-header')) {
+                          document.body.classList.add('show-header');
                       }
                   }
               }
-              else if (document.body.scrollTop < 652) {
-                  if (!document.body.classList.contains('hide-header')) {
-                      document.body.classList.add('hide-header')
+              else if (document.body.scrollTop < headerShowHeight) {
+                  if (document.body.classList.contains('show-header')) {
+                      document.body.classList.remove('show-header')
+                      document.body.classList.remove('adjust-header');
                   }
               }
-          }
           
           
           var scrollTop = bodyEl.scrollTop();

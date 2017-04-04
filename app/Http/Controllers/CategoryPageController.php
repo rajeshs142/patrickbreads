@@ -57,22 +57,34 @@ class CategoryPageController extends Controller
                     ->where('category.id', $id)
                     ->select('category.id', 'category.name', 'category.category_slug', 'category.hero_img', 'category.thumb_img', 'category.url', 'category.parent_id')
                     ->first();
-        $category_id = DB::table('category')
-                    ->where('category.id', $id)
-                    ->select('category.id', 'category.name', 'category.category_slug', 'category.hero_img', 'category.thumb_img', 'category.url', 'category.parent_id')
-                    ->first();
 
+        $category_id = DB::table('category')
+                     ->where('category.id', $id)
+                     ->select('category.id', 'category.name', 'category.category_slug', 'category.hero_img', 'category.thumb_img', 'category.url', 'category.parent_id')
+                     ->first();
+
+        $parent_category_id = DB::table('category')
+                    ->where('category.id', $id)
+                    ->select('category.parent_id')
+                    ->first();
+        if ($parent_category_id->parent_id) {
+          $parent_category = DB::table('category') 
+                      ->where('category.id', $parent_category_id->parent_id)
+                      ->select('category.id', 'category.name', 'category.category_slug', 'category.hero_img', 'category.thumb_img', 'category.url', 'category.parent_id')
+                      ->first();
+        } else {
+          $parent_category = null;
+        }
         $subCategories = DB::table('category')
                     ->where('category.parent_id', $id)
                     ->select('category.id', 'category.name', 'category.category_slug', 'category.hero_img', 'category.thumb_img', 'category.url', 'category.parent_id')
                     ->get();
         
-        
         $category_products = DB::table('product')
                     ->where('product.category_id', $id)                        
                     ->select('product.id', 'product.name', 'product.thumb_url', 'product.product_slug')
                     ->get();
-        return view('category', [ 'category' => $category, 'categories' => $subCategories, 'products' =>  $category_products ]);
+        return view('category', [ 'category' => $category, 'categories' => $subCategories, 'parent_category' => $parent_category, 'products' =>  $category_products ]);
     }
 
 

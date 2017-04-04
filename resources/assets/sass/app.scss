@@ -5,34 +5,101 @@ body {
 
 
 // floating nav (master nav)
+.default.category2 {
+    main {
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        width: 100%;
+        height: 70vh;
+        margin-top: 0;
+        .category {
+            margin-top: 0;
+            color: white;
+            position: relative;
+            top: 120px;
+            .wrapper {
+                border: 0;
+                .item-heading-wrapper {
+                    border-bottom: 0;
+                }
+                .crumbs {
+                    .crumb {
+                        color: white;
+                    }
+                }
+                .item-name {
+                    font-size: 2rem;
+                    border-bottom: 3px double white;
+                    padding-bottom: 20px;
+                    margin-bottom: 20px;
+                }
+                .category-list {
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+        }
+    }
+     .navbar {
+    }
+}
 .navbar {
-    background-color: black;
-    border-color: black;
+    padding: .5rem 4rem;
+    background-color: transparent;
+    border-color: transparent;
+    position: absolute;
+    top: 20px;
+    z-index: 111;
+    left: 0;
+    right: 0;
     .navbar-nav {
         li {
             a {
-                color: white;
                 letter-spacing: 1px;
                 font-variant-caps: small-caps;
                 padding-top: 5px;
                 padding-bottom: 5px;
-                margin-top: 10px;
+                font-size: 14px;
+                color: white;
                 &:focus, &:hover {
                     color: black;
                     background-color: white;
                     transition: background 600ms;
-                    margin-top: 10px;
                     padding-top: 5px;
                     padding-bottom: 5px;
                     text-shadow: none;
                 }
             }
+            a.nav-item {
+                color: white;
+                &:focus, &:hover {
+                    color: black;
+                    background-color: white;
+                }
+            }
+            a.dropdown-item {
+                color: black;
+                &:focus, &:hover {
+                    color: white;
+                    background-color: black;
+                }
+            }
         }
     }
 }
-.hide-header {
+.show-header {
     .navbar {
-        display: none;
+        transition: all 500ms;
+        position: fixed;
+        top: 0 !important;
+    }
+}
+.adjust-header {
+    .navbar {
+        background: black;
+        border-color: black;
+        top: -100px;
     }
 }
 
@@ -69,6 +136,9 @@ body {
                 padding-bottom: 5px;
                 text-shadow: none;
             }
+            &:after {
+                margin-right: 10px;
+            }
         }
     }
 }
@@ -82,19 +152,33 @@ body {
     height: 100vh;
     display: flex;
     .hero-wrapper {
-        position: relative;
         text-align: center;
         color: white;
-        display: flex;
-        flex-direction: column;
         margin: auto;
         .hero-brand {
-            padding-bottom: 40px;
+            border: 3px solid white;
+            margin-bottom: 40px;
+            display: inline-block;
+            padding: 49px 20px;
+            border-radius: 100%;
             img {
-                 height: 100px;
-                 width: 300px;
+                height: auto;
+                width: 100px;
+                display: block;
+                margin: auto;
+            }
+            .logo_icon {
+                width: 200px;
+            }
+            .breads_icon {
+                width: 88px;
             }
         }
+    }
+    .btn-secondary:hover {
+        color: #ffffff;
+        background-color: #0275d8;
+        border-color: #004b8c;
     }
 }
 
@@ -155,12 +239,21 @@ body {
     }
 }
 
-
-
-
-.default main {
-    margin-top: 72px;
+.default.adjust-header {
+    .navbar {
+        top: -100px;
+    }
 }
+.default {
+    .navbar {
+        background: black;
+        top: 0;
+    }
+    main {
+        margin-top: 100px;
+    }
+}
+
 .banner {
     text-align: center;
     padding: 3px 0;
@@ -178,6 +271,7 @@ body {
 
 
 section.categories {
+    background: ghostwhite;
     text-align: center;
     color: black;
     font-variant-caps: small-caps;
@@ -202,7 +296,7 @@ section.categories {
                 color: inherit;
             }
             img {
-                padding: 20px;
+                /* padding: 20px; */
                 background: #fafafa;
                 border: 1px solid #eee;
                 box-shadow: 1px 2px 2px #eee;
@@ -227,7 +321,8 @@ section.categories {
 }
 
 
-footer {
+footer.row {
+    margin: 0;
     background: black;
     color: white !important;
     font-variant-caps: small-caps;
@@ -300,8 +395,8 @@ footer {
 
 
 .section-padding {
-    padding-top: 8%;
-    padding-bottom: 8%;
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
 .section-bg {
     background: #fafafa;
@@ -364,7 +459,18 @@ footer {
 }
 
 
-
+#searchModal {
+    background: rgba(0,0,0,0.7);
+}
+#searchModal .modal-dialog {
+    position: relative;
+    top: 40%;
+}
+#searchModal .form-group {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
 #search-inpt {
     width: 200px;
 }
@@ -443,6 +549,7 @@ footer {
 }
 
 .item-description {
+    overflow: hidden;
     padding-bottom: 30px;
 }
 
@@ -544,14 +651,21 @@ footer {
     color: white;
     font-size: 20px;
     vertical-align: middle;
-    display: inline-block;
-    line-height: 32px;
+    padding: 4px 10px;
+    transition: background 600ms;
+    &:hover {
+        background: white;
+        color: black;
+    }
 }
 
 .hero-btn {
     margin-top: 30px;
 }
 @media (max-width : 767px) {
+    .navbar {
+        padding: .5rem 1rem;
+    }
     .hero-heading {
         font-size: 20px;
         margin-top: 0;
@@ -580,15 +694,6 @@ footer {
     }
     .slick-dotted.slick-slider {
         margin-bottom: 15%;
-    }
-    .hero-wrapper {
-        text-shadow: 1px 1px rgb(12, 12, 12);
-        font-size: 35pt;
-        padding: 15px 15px 15px 44px;
-    }
-    .hero-brand:after {
-        left: 2px;
-        top: 2px;
     }
     .section-padding {
         padding: 4%;
@@ -621,14 +726,20 @@ footer {
     .product-single .item {
         padding: 0;
     }
-    .hero-wrapper {
-        font-size: 30px;
-    }
-    .hero-brand {
-        font-size: 40px;
-    }
-    .search-icon {
-        display: none;
+    .hero-single {
+        .hero-wrapper {
+            text-shadow: 1px 1px rgb(12, 12, 12);
+            font-size: 34px;
+            .hero-brand {
+                padding: 34px 20px;
+                .breads_icon {
+                    width: 48px;
+                }
+                .logo_icon {
+                    width: 100px;
+                }
+            }
+        }
     }
     .search-wrapper {
         display: block;

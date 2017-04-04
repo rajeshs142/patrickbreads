@@ -27,6 +27,7 @@ elixir(function(mix) {
 
     mix.scripts([
         "jquery.min.js",
+        "tether.min.js",
         "bootstrap.min.js",
         "slick.js",
         "laravel.js",
