@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('body_class', 'default admin-page')
+
 @section('content')
 <div class="container admin">
     <div class="row">
@@ -14,6 +16,8 @@
                         <li><a href="/admin/category">@lang('messages.categories')</a></li>
                         <li><a href="/admin/nav">@lang('messages.navigation')</a></li>
                         <li><a href="/admin/banner">@lang('messages.banner')</a></li>
+                        <br />
+                        <li><a href="/logout">@lang('messages.logout')</a></li>
                     </ul>
                 </div>
             </div>

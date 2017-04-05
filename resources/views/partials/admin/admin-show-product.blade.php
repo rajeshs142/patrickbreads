@@ -1,10 +1,12 @@
 @extends('layouts.app')
 
+@section('body_class', 'default admin-page')
+
 @section('content')
 <div class="container show-category admin">
-    <div class="col-md-10 col-md-offset-1">
+    <div class="col-md-10 offset-md-1">
         <div>
-           <h4>@lang('messages.story') {{ $data->id }} - {{ $data->name }}</h4>
+           <h4>@lang('messages.product') {{ $data->id }} - {{ $data->name }}</h4>
         </div>
         <table class="table table-responsive">
             <tbody>

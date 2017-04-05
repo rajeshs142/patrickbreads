@@ -1,8 +1,10 @@
 @extends('layouts.app')
 
+@section('body_class', 'default admin-page')
+
 @section('content')
 <div class="container categories admin">
-    <div class="col-md-10 col-md-offset-1">
+    <div class="col-md-10 offset-md-1">
         <div class="panel panel-default">
             <div class="panel-heading">@lang('messages.navigation') @lang('messages.create')</div>
             <div class="panel-body">
@@ -33,7 +35,7 @@
                         </div>
                     </div>
                     <div class="form-group">
-                       <div class="col-sm-offset-2 col-sm-10">
+                       <div class="col-sm-12">
                           <button class="btn btn-primary" type="submit">@lang('messages.create') @lang('messages.navigation')</button>
                        </div>
                      </div>
@@ -41,7 +43,7 @@
             </div>
         </div>
     </div>
-    <div class="col-md-10 col-md-offset-1 table-responsive">
+    <div class="col-md-10 offset-md-1 table-responsive">
         <h4>@lang('messages.navigation') @lang('messages.list')</h4>
         <table class="table table-striped">
             <thead>

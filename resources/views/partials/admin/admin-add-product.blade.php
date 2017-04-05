@@ -1,10 +1,12 @@
 @extends('layouts.app')
 
+@section('body_class', 'default admin-page')
+
 @section('content')
 <div class="container stories admin">
-    <div class="col-md-10 col-md-offset-1 table-responsive">
+    <div class="col-md-10 offset-md-1 table-responsive">
         <div class="panel panel-default">
-            <div class="panel-heading">@lang('messages.create_new_post')</div>
+            <div class="panel-heading">@lang('messages.create_new_product')</div>
             <div class="panel-body">
                 <form method="POST" action="/product" class="form-horizontal">
                     <div class="form-group">
@@ -157,8 +159,8 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <div class="col-sm-offset-2 col-sm-10">
-                            <button class="btn btn-primary" type="submit">@lang('messages.create_new_post')</button>
+                        <div class="col-sm-12">
+                            <button class="btn btn-primary" type="submit">@lang('messages.create_new_product')</button>
                         </div>
                     </div>
                 </form>

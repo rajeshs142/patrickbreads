@@ -1,8 +1,10 @@
 @extends('layouts.app')
 
+@section('body_class', 'default admin-page')
+
 @section('content')
 <div class="container edit-category admin">
-    <div class="col-md-10 col-md-offset-1">
+    <div class="col-md-10 offset-md-1">
         <div class="panel panel-default">
             <div class="panel-heading">@lang('messages.update') @lang('messages.navigation')</div>
             <div class="panel-body">
@@ -52,7 +54,7 @@
                           </div>
                     </div>
                     <div class="form-group">
-                       <div class="col-sm-offset-2 col-sm-10">
+                       <div class="col-sm-12">
                           <button class="btn btn-primary" type="submit">@lang('messages.update') @lang('messages.navigation')</button>
                        </div>
                      </div>

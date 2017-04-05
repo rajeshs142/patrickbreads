@@ -1,8 +1,10 @@
 @extends('layouts.app')
 
+@section('body_class', 'default admin-page')
+
 @section('content')
 <div class="container stories admin">
-    <div class="col-md-10 col-md-offset-1">
+    <div class="col-md-10 offset-md-1">
         <div>
             <h4 class="d-ib">@lang('messages.users') @lang('messages.list')</h4>
         </div>

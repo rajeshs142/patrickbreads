@@ -1,11 +1,11 @@
 @extends('layouts.app')
 
-@section('body_class', 'default')
+@section('body_class', 'default admin-page')
 
 @section('content')
 <main class="container">
     <div class="row">
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-8 offset-md-2">
             <div class="panel panel-default">
                 <div class="panel-heading">Reset Password</div>
 
@@ -57,7 +57,7 @@
                         </div>
 
                         <div class="form-group">
-                            <div class="col-md-6 col-md-offset-4">
+                            <div class="col-md-6 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
                                     <i class="fa fa-btn fa-refresh"></i> Reset Password
                                 </button>

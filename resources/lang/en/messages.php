@@ -18,6 +18,7 @@ return [
     'create' => 'Create',
     'created_at' => 'Created At',
     'create_new_post' => 'Create New Post',
+    'create_new_product' => 'Create New Product',
     'delete' => 'Delete',
     'description' => 'Description',
     'email' => 'Email',

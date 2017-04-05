@@ -1,8 +1,10 @@
 @extends('layouts.app')
 
+@section('body_class', 'default admin-page')
+
 @section('content')
 <div class="container edit-category admin">
-    <div class="col-md-10 col-md-offset-1">
+    <div class="col-md-10 offset-md-1">
         <div class="panel panel-default">
             <div class="panel-heading">@lang('messages.update') @lang('messages.category')</div>
             <div class="panel-body">

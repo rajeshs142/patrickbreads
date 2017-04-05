@@ -210,10 +210,15 @@ body {
             }
         }
     }
-    .btn-secondary:hover {
+    .hero-btn {
         color: #ffffff;
         background-color: #0275d8;
         border-color: #004b8c;
+        &:hover, &:focus {
+            outline: 0;
+            background-color: #004b8c;
+            border-color: #004b8c;
+        }
     }
 }
 
@@ -280,7 +285,9 @@ body {
     }
 }
 .default.product-page,
-.default.search {
+.default.admin-page,
+.default.login-page,
+.default.search-page {
     .navbar {
         top: 0;
     }
@@ -690,10 +697,21 @@ section.products.none {
     text-align: center;
 }
 .admin {
-    padding-top: 71px;
+    padding-top: 90px;
 }
 
+/* panel removed from bootstrap 4 */
+.panel {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px;
+}
 
+.panel-heading {
+    padding-bottom: 20px;
+    font-size: 18px;
+}
 .search-icon {
     color: white;
     font-size: 20px;
