@@ -2,7 +2,7 @@
 
 @include('partials.meta-tags', ['title' => 'Patricks Breads - '.$product->name, 'ogtype' => 'website', 'ogtitle' => 'Patricks Breads - '.$product->name, 'ogdescription' => $product->description])
 
-@section('body_class', 'default')
+@section('body_class', 'default product-page')
 
 @section('content')
 <main>
@@ -27,43 +27,43 @@
             <div class="col-sm-6">
                 <img class="item-img" src="{{ $product->thumb_url }}">
             </div>
-            <div class="specs col-sm-6">
-                <div class="specs-heading">Specs</div>
+            <div class="specs text-left col-sm-6">
+                <div class="specs-heading text-center">Specs</div>
                 <div class="row">
-                    <div class="col-xs-4"><label>color</label></div>
-                    <div class="col-xs-8">{{ $product->color }}</div>
+                    <div class="col-4"><label>color</label></div>
+                    <div class="col-8">{{ $product->color }}</div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-4"><label>texture</label></div>
-                    <div class="col-xs-8">{{ $product->texture }}</div>
+                    <div class="col-4"><label>texture</label></div>
+                    <div class="col-8">{{ $product->texture }}</div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-4"><label>size</label></div>
-                    <div class="col-xs-8">{{ $product->size }}</div>
+                    <div class="col-4"><label>size</label></div>
+                    <div class="col-8">{{ $product->size }}</div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-4"><label>pack_size</label></div>
-                    <div class="col-xs-8">{{ $product->pack_size }}</div>
+                    <div class="col-4"><label>pack_size</label></div>
+                    <div class="col-8">{{ $product->pack_size }}</div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-4"><label>unit_weight</label></div>
-                    <div class="col-xs-8">{{ $product->unit_weight }}</div>
+                    <div class="col-4"><label>unit_weight</label></div>
+                    <div class="col-8">{{ $product->unit_weight }}</div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-4"><label>case_weight</label></div>
-                    <div class="col-xs-8">{{ $product->case_weight }}</div>
+                    <div class="col-4"><label>case_weight</label></div>
+                    <div class="col-8">{{ $product->case_weight }}</div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-4"><label>shelf_life</label></div>
-                    <div class="col-xs-8">{{ $product->shelf_life }}</div>
+                    <div class="col-4"><label>shelf_life</label></div>
+                    <div class="col-8">{{ $product->shelf_life }}</div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-4"><label>storage</label></div>
-                    <div class="col-xs-8">{{ $product->storage }}</div>
+                    <div class="col-4"><label>storage</label></div>
+                    <div class="col-8">{{ $product->storage }}</div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-4"><label>energy</label></div>
-                    <div class="col-xs-8">{{ $product->energy }}</div>
+                    <div class="col-4"><label>energy</label></div>
+                    <div class="col-8">{{ $product->energy }}</div>
                 </div>
             </div>
         </div>
@@ -71,5 +71,6 @@
     <div>
         @include('partials.products_list', ['products', $products])
     </div>
+    @include('partials.search_modal')
 </main>
 @endsection

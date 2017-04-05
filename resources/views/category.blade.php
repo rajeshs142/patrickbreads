@@ -42,4 +42,5 @@
     </div>
 </main>
 @include('partials.products_list', ['products', $products])
+@include('partials.search_modal')
 @endsection

@@ -8,7 +8,7 @@ body {
 .default.category2 {
     main {
         background-repeat: no-repeat;
-        background-size: 100% 100%;
+        background-size: 100%;
         width: 100%;
         height: 70vh;
         margin-top: 0;
@@ -279,10 +279,15 @@ body {
         top: -100px;
     }
 }
+.default.product-page,
+.default.search {
+    .navbar {
+        top: 0;
+    }
+}
 .default {
     .navbar {
         background: black;
-        top: 0;
     }
     main {
         margin-top: 100px;
@@ -486,6 +491,7 @@ section.products.none {
             font-variant-caps: small-caps;
             font-size: 18px;
             padding: 20px 0;
+            width: 200px;
         }
         &:hover {
             background: #fafafa;
@@ -569,6 +575,9 @@ section.products.none {
     background: white;
     margin-bottom: 40px;
     margin-top: 25px;
+    .item-name {
+        padding-top: 28px;
+    }
     .item {
         padding: 0 60px 60px 60px;
         .specs {
@@ -768,14 +777,18 @@ section.products.none {
         .hero-wrapper {
             text-shadow: 1px 1px rgb(12, 12, 12);
             font-size: 34px;
+            padding-top: 60px;
             .hero-brand {
-                padding: 34px 20px;
+                padding: 57px 36px;
                 .breads_icon {
-                    width: 48px;
+                    width: 60px;
                 }
                 .logo_icon {
-                    width: 100px;
+                    width: 130px;
                 }
+            }
+            .hero-btn {
+                font-size: 1rem;
             }
         }
     }
