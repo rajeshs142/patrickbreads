@@ -13,7 +13,7 @@
     
     <meta name="csrf-token" content="{{ csrf_token() }}">
     
-    <link rel="icon" type="image/png" href="/img/pb_logo_dark.png">
+    <link rel="icon" type="image/png" href="/img/breads_g.png">
 
     <link href="//fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:100,300,400,700">

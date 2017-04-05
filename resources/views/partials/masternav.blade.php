@@ -1,7 +1,7 @@
 <nav class="navbar navbar-toggleable-md">
     <!-- Brand and toggle get grouped for better mobile display -->
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span class="fa fa-lg fa-bars"></span>
     </button>
     @include('partials.header')
 

@@ -39,7 +39,7 @@
                 @endif
 			</div>
 		</div>
-		<div class="btn-wrapper row col-sm-12 form-group">
+		<div class="btn-wrapper form-group">
 			<button type="submit" class="btn btn-primary contact-btn">@lang('messages.send')&nbsp;@lang('messages.message')</button>
 		</div>
 	</form>

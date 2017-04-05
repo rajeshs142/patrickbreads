@@ -21,6 +21,7 @@
                 </div>
             </div>
             <h2 class="item-name">{{ $category->name }}</h2>
+            @if(count($categories))
             <ul class="category-list">
             @foreach($categories as $category)
                 <li>
@@ -36,6 +37,7 @@
                 </li>
             @endforeach
             </ul>
+            @endif
         </div>
     </div>
 </main>

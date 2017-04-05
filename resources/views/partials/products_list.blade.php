@@ -21,7 +21,7 @@
     </ul>
 </section>
 @else
-<section class="products" @include('partials.styles', ['styles' => $productsListStyles])>
+<section class="products none" @include('partials.styles', ['styles' => $productsListStyles])>
     Currently, There are no products in this category.
 </section>
 @endif
