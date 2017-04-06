@@ -9,7 +9,7 @@
     @include('partials.hero')
     @include('partials.story')
     @include('partials.categories')
-    @include('partials.gallery')
+    @include('partials.carousel')
     @include('partials.search_modal')
 </main>
 @endsection
