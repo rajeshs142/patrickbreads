@@ -1,4 +1,4 @@
-<footer class="row section-padding" @include('partials.styles', ['styles' => $footerStyles])>
+<footer id="footer" class="row section-padding" @include('partials.styles', ['styles' => $footerStyles])>
     <div class="col-sm-6 social">
         <h2 class="footer-logo">
             <img src="/img/breads_g_w.png" width="50px">
