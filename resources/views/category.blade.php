@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@include('partials.meta-tags', ['title' => 'Patricks Breads - Categories', 'ogtype' => 'website', 'ogtitle' => 'Patricks Breads - Categories', 'ogdescription' => 'Breads, Sweets, Savoury, Beverage, Pantry'])
+@include('partials.meta-tags', ['title' => $category->name.' - Patricks Breads', 'ogtype' => 'website', 'ogtitle' => $category->name.' - Patricks Breads', 'ogdescription' => 'Breads, Sweets, Pastries, Cakes, Gluten Free Range, Catering Range, Packaged Products, New Products'])
 
 @section('body_class', 'default category2')
 
@@ -41,6 +41,6 @@
         </div>
     </div>
 </main>
-@include('partials.products_list', ['products', $products])
+@include('partials.products_list', ['products' => $products, 'category' => 'Products in '.$category->name])
 @include('partials.search_modal')
 @endsection

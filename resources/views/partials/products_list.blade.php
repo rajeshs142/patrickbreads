@@ -1,6 +1,6 @@
 @if(count($products))
 <section class="products section-padding" @include('partials.styles', ['styles' => $productsListStyles])>
-    <h2 class="heading">Products List</h2>
+    <h2 class="heading">{{$category}}</h2>
     <ul>
         @foreach($products as $product)
         <li>

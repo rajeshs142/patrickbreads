@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@include('partials.meta-tags', ['title' => 'Patricks Breads - '.$product->name, 'ogtype' => 'website', 'ogtitle' => 'Patricks Breads - '.$product->name, 'ogdescription' => $product->description])
+@include('partials.meta-tags', ['title' => $product->name.' - Patricks Breads', 'ogtype' => 'website', 'ogtitle' => $product->name.' - Patricks Breads', 'ogdescription' => $product->description])
 
 @section('body_class', 'default product-page')
 
@@ -69,7 +69,7 @@
         </div>
     </div>
     <div>
-        @include('partials.products_list', ['products', $products])
+        @include('partials.products_list', ['products' => $products, 'category' => 'More '.$pc->name])
     </div>
     @include('partials.search_modal')
 </main>

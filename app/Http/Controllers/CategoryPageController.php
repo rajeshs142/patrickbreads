@@ -82,6 +82,8 @@ class CategoryPageController extends Controller
         
         $category_products = DB::table('product')
                     ->where('product.category_id', $id)                        
+                    ->orWhere('product.sub_category_id', $id)
+                    ->orWhere('product.sub_category2_id', $id)
                     ->select('product.id', 'product.name', 'product.thumb_url', 'product.product_slug')
                     ->get();
         return view('category', [ 'category' => $category, 'categories' => $subCategories, 'parent_category' => $parent_category, 'products' =>  $category_products ]);
