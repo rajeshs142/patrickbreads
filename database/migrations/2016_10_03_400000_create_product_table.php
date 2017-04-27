@@ -28,6 +28,8 @@ class CreateProductTable extends Migration
             $table->string('image_url')->nullable();
             $table->string('thumb_url')->nullable();
             $table->string('code')->nullable();
+            $table->string('dimensions')->nullable();
+            $table->string('serving_size')->nullable();
             $table->string('color')->nullable();
             $table->string('texture')->nullable();
             $table->string('size')->nullable();
