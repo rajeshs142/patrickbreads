@@ -30,6 +30,22 @@
             <div class="specs text-left col-sm-6">
                 <div class="specs-heading text-center">Specs</div>
                 <div class="row">
+                    <div class="col-4"><label>Dimensions</label></div>
+                    <div class="col-8">{{ $product->dimensions }}</div>
+                </div>
+                <div class="row">
+                    <div class="col-4"><label>Serving Size</label></div>
+                    <div class="col-8">{{ $product->serving_size }}</div>
+                </div>
+                <div class="row">
+                    <div class="col-4"><label>Shelf Life</label></div>
+                    <div class="col-8">{{ $product->shelf_life }}</div>
+                </div>
+                <div class="row">
+                    <div class="col-4"><label>Storage</label></div>
+                    <div class="col-8">{{ $product->storage }}</div>
+                </div>
+                <!--div class="row">
                     <div class="col-4"><label>color</label></div>
                     <div class="col-8">{{ $product->color }}</div>
                 </div>
@@ -54,17 +70,9 @@
                     <div class="col-8">{{ $product->case_weight }}</div>
                 </div>
                 <div class="row">
-                    <div class="col-4"><label>shelf_life</label></div>
-                    <div class="col-8">{{ $product->shelf_life }}</div>
-                </div>
-                <div class="row">
-                    <div class="col-4"><label>storage</label></div>
-                    <div class="col-8">{{ $product->storage }}</div>
-                </div>
-                <div class="row">
                     <div class="col-4"><label>energy</label></div>
                     <div class="col-8">{{ $product->energy }}</div>
-                </div>
+                </div-->
             </div>
         </div>
     </div>

@@ -23,16 +23,16 @@
             <h2 class="item-name">{{ $category->name }}</h2>
             @if(count($categories))
             <ul class="category-list">
-            @foreach($categories as $category)
+            @foreach($categories as $category1)
                 <li>
-                    @if($category->url)
-                    <a href="{{ $category->url }}">
-                    @elseif($category->category_slug)
-                    <a href="category/{{ $category->category_slug }}">
+                    @if($category1->url)
+                    <a href="{{ $category1->url }}">
+                    @elseif($category1->category_slug)
+                    <a href="category/{{ $category1->category_slug }}">
                     @else
-                    <a href="category/{{ $category->name }}">
+                    <a href="category/{{ $category1->name }}">
                     @endif
-                        {{ $category->name }}
+                        {{ $category1->name }}
                     </a>
                 </li>
             @endforeach
