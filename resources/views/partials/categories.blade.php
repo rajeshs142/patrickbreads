@@ -17,7 +17,7 @@
                     <div class="category-name">
                         {{ $category->name }}
                     </div>
-                    <img src="{{ $category->thumb_img }}" height="200px">
+                    <img src="{{ $category->thumb_img }}" height="auto">
                 </a>
             </div>
         </li>
