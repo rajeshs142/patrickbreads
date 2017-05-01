@@ -8,10 +8,16 @@
             @foreach ($footerConfig as $f)
                 @if (isset($f['url']) && isset($f['title']))
                     <li>
-                        <a href="{{ $f['url'] }}">{{$f['title']}}</a>
+                        <a href="{{ $f['url'] }}">
+                            <i class="icon fa {{$f['icon']}}"></i>
+                            {{$f['title']}}
+                        </a>
                     </li>
                 @elseif (isset($f['title']))
-                    <li>{{$f['title']}}</li>
+                    <li>
+                        <i class="icon fa {{$f['icon']}}"></i>
+                        {{$f['title']}}
+                    </li>
                 @endif
             @endforeach
         </ul>

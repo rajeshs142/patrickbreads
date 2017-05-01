@@ -391,6 +391,28 @@ footer.row {
             }
         }
     }
+    .icon {
+        color: black;
+        margin-right: 10px;
+        padding: 7px 10px;
+        background: #fff;
+        border-radius: 50%;
+    }
+    .icon.fa-twitter {
+        padding: 7px 7px;
+    }
+    .icon.fa-instagram {
+        padding: 7px 8px;
+    }
+    .icon.fa-phone {
+        padding: 7px 9px;
+    }
+    .icon.fa-envelope {
+        padding: 7px 7px;
+    }
+    .icon.fa-map-marker {
+        padding: 7px 10px;
+    }
 }
 
 
