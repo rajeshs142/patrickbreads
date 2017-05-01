@@ -72,8 +72,23 @@ class ProductPageController extends Controller
                     -> select('category.name', 'category_slug')
                     ->get();
         }
+        
+        if($product_categories->sub_category2_id) {
+            $final_category = $product_categories->sub_category2_id;
+            $cat_type = 'sub_category2_id';
+        }
+        else if($product_categories->sub_category_id) {
+            $final_category = $product_categories->sub_category_id;
+            $cat_type = 'sub_category_id';
+        }
+        else {
+            $final_category = $product_categories->category_id;
+            $cat_type = 'category_id';
+        }
+
+        
         $products = DB::table('product')
-                    ->where('product.category_id', $category->category_id)
+                    ->where('product.'.$cat_type, $final_category)
                     ->paginate(16);
 
         return view('product_single', [ 'product' => $product, 'products' => $products, 'product_categories' => $category_names ]);
