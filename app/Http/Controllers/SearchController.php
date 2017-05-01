@@ -44,12 +44,12 @@ class SearchController extends Controller
                     ->join('category', 'product.category_id', '=', 'category.id')
                     ->select('product.id', 'product.name', 'product.thumb_url', 'product.image_url', 'product.product_slug', 'category.name as category', 'product.updated_at' )
                     ->orderBy($sort, 'desc')
-                    ->paginate(15);
+                    ->paginate(16);
 
         // set path for pagination
         $product->setPath('/search?search='.$keyword);
         
-        $data = [ 'product' => $product, 'search' => '<span> Search results for </span><strong>'.$keyword.'</strong>', 'keyword' => $keyword ];
+        $data = [ 'product' => $product, 'search' => 'Search results for '.$keyword, 'keyword' => $keyword ];
 
         return view('search', $data);
     }

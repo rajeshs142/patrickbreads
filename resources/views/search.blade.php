@@ -7,10 +7,7 @@
 @section('content')
 <main>
     <section>
-        @include('partials.products_list', ['products' => $product, 'productsListStyles' => []])
-        <div class="ta-c">
-            {{ $product->links() }}
-        </div>
+        @include('partials.products_list', ['products' => $product, 'category' => $search, 'productsListStyles' => []])
     </section>
 
     @include('partials.search_modal')

@@ -74,7 +74,7 @@ class ProductPageController extends Controller
         }
         $products = DB::table('product')
                     ->where('product.category_id', $category->category_id)
-                    ->get();
+                    ->paginate(16);
 
         return view('product_single', [ 'product' => $product, 'products' => $products, 'product_categories' => $category_names ]);
     }

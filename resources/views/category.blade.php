@@ -26,11 +26,11 @@
             @foreach($categories as $category1)
                 <li>
                     @if($category1->url)
-                    <a href="{{ $category1->url }}">
+                    <a href="{{ $category1->url }}" title="{{ $category1->name }}">
                     @elseif($category1->category_slug)
-                    <a href="category/{{ $category1->category_slug }}">
+                    <a href="category/{{ $category1->category_slug }}" title="{{ $category1->name }}">
                     @else
-                    <a href="category/{{ $category1->name }}">
+                    <a href="category/{{ $category1->name }}" title="{{ $category1->name }}">
                     @endif
                         {{ $category1->name }}
                     </a>

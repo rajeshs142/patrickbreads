@@ -499,6 +499,8 @@ section.products.none {
             font-size: 18px;
             padding: 20px 0;
             width: 200px;
+            overflow: hidden;
+            white-space: nowrap;
         }
         &:hover {
             background: #fafafa;
@@ -509,7 +511,12 @@ section.products.none {
     }
 }
 
-
+.pagination {
+    display: inline-block;
+    li {
+        display: inline-block;
+    }
+}
 #searchModal {
     background: rgba(0,0,0,0.7);
 }
