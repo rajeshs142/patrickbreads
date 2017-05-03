@@ -51,8 +51,12 @@ body {
 }
 .default.category2.adjust-header {
     .navbar {
-        background: rgba(0,0,0,0.9);;
+        background: rgba(0,0,0,0.9);
         border-color: black;
+        .collapsing,
+        .collapse.show {
+            background: transparent;
+        }
     }
 }
 .navbar {
@@ -74,6 +78,7 @@ body {
     }
     .collapsing,
     .collapse.show {
+        background: black;
         transition: 0s;
         .search-icon {
             padding: 10px;

@@ -46,7 +46,7 @@
                 </div>
             @endforeach
         </div>
-        <div class="contact">
+        <div class="contact pt-3" style="border-top: 1px solid #6d6d6d;">
             @include('partials.copyright')
         </div>
     </div>
