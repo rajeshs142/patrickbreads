@@ -8,7 +8,7 @@
 <main>
     <div class="product-single container" @include('partials.styles', ['styles' => $productSingleStyles])>
         <div class="crumb-wrapper row">
-                <div class="crumbs col-8">
+                <div class="crumbs col-lg-8">
                 <a class="crumb" href="/"> Home </a>
                 <span> > </span>
                 @for($i=0; $i < count($product_categories); $i++)
@@ -20,7 +20,7 @@
                     @endforeach
                 @endfor
                 </div>
-                <div class="col-4 hidden-lg-down ta-r">
+                <div class="col-lg-4 hidden-lg-down ta-r">
                     @include('partials.share')
                 </div>
         </div>
@@ -31,7 +31,7 @@
             <div class="col-sm-6">
                 <img class="item-img" src="{{ $product->thumb_url }}">
             </div>
-            <div class="specs text-left col-sm-6">
+            <div class="specs text-left col-sm-6 mb-4">
                 <div class="specs-heading text-center">Specs</div>
                 <div class="row">
                     <div class="col-4"><label>Dimensions</label></div>
