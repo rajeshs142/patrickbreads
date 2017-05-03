@@ -12,7 +12,12 @@
             <h2 class="heading">{{ $storyConfig['headline']}}</h2>
         @endif
         @if(isset($storyConfig['story-txt']))
-            <div class="body">{{ $storyConfig['story-txt']}}</div>
+            <div class="body">
+            @foreach($storyConfig['story-txt'] as $storytxt)
+                <p>{{ $storytxt }}</p>
+            @endforeach
+                <p>Please <a href='/contact'>contact us</a> for samples.</p>
+            </div>
         @endif
         @if(isset($storyConfig['border-img']['src']))
             <br>

@@ -25,6 +25,7 @@ class ConfigComposer
         $categoriesConfig = Config::get('sections.categories');
         $feedbackConfig = Config::get('sections.feedback');
         $footerConfig = Config::get('sections.footer');
+        $contactConfig = Config::get('sections.contact');
 
         $view->with([
             'heroConfig' => $heroConfig,
@@ -34,6 +35,7 @@ class ConfigComposer
             'galleryConfig' => $galleryConfig,
             'categoriesConfig' => $categoriesConfig,
             'footerConfig' => $footerConfig,
+            'contactConfig' => $contactConfig,
             'feedbackConfig' => $feedbackConfig
         ]);
     }

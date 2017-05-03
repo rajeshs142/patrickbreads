@@ -24,7 +24,6 @@
     @include('partials.masternav')
     @yield('content')
     @include('partials.footer')
-    @include('partials.copyright')
 
     <!-- JavaScripts -->
     <script src="{{ elixir('js/all.js') }}"></script>

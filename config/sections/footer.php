@@ -23,31 +23,30 @@
 //     ]
 // ];
 return [
-    'facebook' => [
-        'title' => 'Facebook',
-        'icon' => 'fa-facebook',
-        'url' => 'https://www.facebook.com/PatricksContinentalBreads/',
+    'social' => [
+        'facebook' => [
+            'icon' => 'fa-facebook',
+            'url' => 'https://www.facebook.com/PatricksContinentalBreads/',
+        ],
+        'twitter' => [
+            'icon' => 'fa-twitter',
+            'url' => 'https://www.facebook.com/PatricksContinentalBreads/',
+        ],
+        'instagram' => [
+            'icon' => 'fa-instagram',
+            'url' => 'https://www.facebook.com/pg/PatricksContinentalBreads/photos/',
+        ]
     ],
-    'twitter' => [
-        'title' => 'Twitter',
-        'icon' => 'fa-twitter',
-        'url' => 'https://www.facebook.com/PatricksContinentalBreads/',
-    ],
-    'instagram' => [
-        'title' => 'Instagram',
-        'icon' => 'fa-instagram',
-        'url' => 'https://www.facebook.com/pg/PatricksContinentalBreads/photos/',
-    ],
-    'phone' => [
-        'title' => '+61 2 8790 6444',
-        'icon' => 'fa-phone'
-    ],
-    'email' => [
-        'title' => 'hi@patricksbreads.com.au',
-        'icon' => 'fa-envelope'
-    ],
-    'address' => [
-        'title' => '41-43 Chetwynd Rd Merrylands, New South Wales, Australia',
-        'icon' => 'fa-map-marker'
-    ]
+    // 'offline' => [
+//         'phone' => [
+//             'title' => '02 8089 0783',
+//             'icon' => 'fa-phone'
+//         ],
+//     ],
+//     'online' => [
+//         'email' => [
+//             'title' => 'admin@patricksbreads.com.au',
+//             'icon' => 'fa-envelope'
+//         ]
+//     ]
 ];

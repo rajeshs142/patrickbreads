@@ -7,21 +7,25 @@
 @section('content')
 <main>
     <div class="product-single container" @include('partials.styles', ['styles' => $productSingleStyles])>
-        <div class="item-heading-wrapper">
-            <div class="crumbs">
-            <a class="crumb" href="/"> Home </a>
-            <span> > </span>
-            @for($i=0; $i < count($product_categories); $i++)
-                @foreach($product_categories[$i] as $pc)
-                    @if($pc->name)
-                        <a class="crumb" href="/category/{{ $pc->category_slug }}">{{ $pc->name }} </a>
-                        <span> > </span>
-                    @endif
-                @endforeach
-            @endfor
-            </div>
-            <h2 class="item-name">{{ $product->name }}</h2>
+        <div class="crumb-wrapper row">
+                <div class="crumbs col-8">
+                <a class="crumb" href="/"> Home </a>
+                <span> > </span>
+                @for($i=0; $i < count($product_categories); $i++)
+                    @foreach($product_categories[$i] as $pc)
+                        @if($pc->name)
+                            <a class="crumb" href="/category/{{ $pc->category_slug }}">{{ $pc->name }} </a>
+                            <span> > </span>
+                        @endif
+                    @endforeach
+                @endfor
+                </div>
+                <div class="col-4 hidden-lg-down ta-r">
+                    @include('partials.share')
+                </div>
         </div>
+        <h2 class="item-name item-heading-wrapper">{{ $product->name }}</h2>
+        
         <div class="row item">
             <div class="item-description">{{ $product->description }}</div>
             <div class="col-sm-6">

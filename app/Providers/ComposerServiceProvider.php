@@ -71,7 +71,10 @@ class ComposerServiceProvider extends ServiceProvider
             'search',
             'App\Http\ViewComposers\ConfigComposer'
         );
-
+        view()->composer(
+            'contact',
+            'App\Http\ViewComposers\ConfigComposer'
+        );
     }
 
     /**

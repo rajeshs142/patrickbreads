@@ -8,8 +8,8 @@
 <main style="background-image:url({{$category->hero_img}});">
     <div class="category" @include('partials.styles', ['styles' => $categoriesStyles])>
         <div class="wrapper container">
-            <div class="item-heading-wrapper">
-                <div class="crumbs">
+            <div class="item-heading-wrapper row">
+                <div class="crumbs col-8">
                     <a class="crumb" href="/"> Home </a>
                     <span> &gt; </span>
                     @if($parent_category)
@@ -18,6 +18,9 @@
                     @endif
                     <a class="crumb" href="/category/{{ $category->category_slug }}"> {{ $category->name }} </a>
                     <span> &gt; </span>
+                </div>
+                <div class="col-4 hidden-lg-down ta-r">
+                    @include('partials.share')
                 </div>
             </div>
             <h2 class="item-name">{{ $category->name }}</h2>
