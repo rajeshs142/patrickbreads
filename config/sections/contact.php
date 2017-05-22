@@ -39,8 +39,9 @@ return [
         'url' => 'https://www.facebook.com/pg/PatricksContinentalBreads/photos/',
     ],
     'phone' => [
-        'title' => '02 8089 0783',
-        'icon' => 'fa-phone'
+        'title' => '+61 02 8089 0783',
+        'icon' => 'fa-phone',
+        'url' => 'tel:+610280890783'
     ],
     'email' => [
         'title' => 'admin@patricksbreads.com.au',

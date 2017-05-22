@@ -1,6 +1,6 @@
 <?php
 return [
     'img1' => [
-        'src' => 'img/hero.png',
+        'src' => 'img/hero_small.png',
     ],
 ];
