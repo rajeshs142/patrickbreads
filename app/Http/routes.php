@@ -47,4 +47,4 @@ Route::get('/search', 'SearchController@index');
 // contact
 Route::get('/contact', 'ContactController@index');
 Route::post('/contact/store', 'FooterController@store');
-Route::post('/contact/footerstore', 'FooterController@footerstore');
+Route::post('/contact/sendmessage', 'ContactController@store');

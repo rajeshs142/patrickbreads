@@ -45,6 +45,7 @@ return [
     ],
     'email' => [
         'title' => 'admin@patricksbreads.com.au',
-        'icon' => 'fa-envelope'
+        'icon' => 'fa-envelope',
+        'url' => 'mailto:admin@patricksbreads.com.au'
     ]
 ];

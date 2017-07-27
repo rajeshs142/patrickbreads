@@ -2,7 +2,15 @@
 /node_modules
 /public/storage
 /public/img
+/public/css
+/public/build
 Homestead.yaml
 Homestead.json
 .env
 .env.example
+*.swp
+*.swo
+.DS_Store
+public/build
+*.map
+.gitignore

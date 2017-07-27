@@ -34,8 +34,8 @@ class ContactController extends Controller
 
         if($validator->fails()) {
             $errors = $validator->errors();
-            $errors =  json_decode($errors); 
-            
+            $errors =  json_decode($errors);
+
             return response()->json([
                 'success' => false,
                 'message' => $errors
@@ -56,8 +56,9 @@ class ContactController extends Controller
         }
     }
     
-    public function footerstore(Request $request)
+    public function sendmessage(Request $request)
     {
+        print_r('eeeeeeeeeeeeeeeeeeeeeeeeeeee');
         $data = Input::all();
         $this->validate($request, [
             'name' => 'required',
@@ -70,7 +71,7 @@ class ContactController extends Controller
                 $message->to(env('MAIL_USERNAME'), env('MAIL_NAME'))->subject('feedback from '.$data['name']);
             });
         }
-        return redirect()->action('ContactController@index');
+        return redirect()->action('HomeController@index');
     }
 
 }

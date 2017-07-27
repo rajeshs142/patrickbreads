@@ -19,8 +19,36 @@
                     <td>{{ $data->name }}</td>
                 </tr>
                 <tr>
+                    <th>@lang('messages.description')</th>
+                    <td>{{ $data->description }}</td>
+                </tr>
+                <tr>
+                    <th>@lang('messages.short_description')</th>
+                    <td>{{ $data->short_description }}</td>
+                </tr>
+                <tr>
                     <th>@lang('messages.category')</th>
                     <td>{{ $data->category }}</td>
+                </tr>
+                <tr>
+                    <th>@lang('messages.image_url')</th>
+                    <td>{{ $data->image_url }}</td>
+                </tr>
+                <tr>
+                    <th>@lang('messages.dimensions')</th>
+                    <td>{{ $data->dimensions }}</td>
+                </tr>
+                <tr>
+                    <th>@lang('messages.serving_size')</th>
+                    <td>{{ $data->serving_size }}</td>
+                </tr>
+                <tr>
+                    <th>@lang('messages.shelf_life')</th>
+                    <td>{{ $data->shelf_life }}</td>
+                </tr>
+                <tr>
+                    <th>@lang('messages.storage')</th>
+                    <td>{{ $data->storage }}</td>
                 </tr>
                 <tr>
                     <th>@lang('messages.author')</th>

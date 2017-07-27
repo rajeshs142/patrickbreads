@@ -8,19 +8,19 @@
         <div class="panel panel-default">
             <div class="panel-heading">@lang('messages.category')</div>
             <div class="panel-body">
-                <form method="POST" action="/admin/category">
+                <form method="POST" action="/admin/category" enctype="multipart/form-data">
                     <div class="form-group">
                         <input type="text" id="story-title" name="category" placeHolder="Category Name">
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group d-none">
                         <input type="text" name="thumb_img" placeHolder="Thumb Image">
                     </div>
                     <div class="form-group">
                         <input type="text" name="url" placeHolder="URL">
                     </div>
                     <div class="form-group">
-                        <input type="text" name="hero_img" placeHolder="Hero Image">
+                        <input type="file" name="hero_img">
                     </div>
                     <div class="form-group">
                         <input type="text" name="parent_id" placeHolder="Parent Category Id">
@@ -52,9 +52,6 @@
                     <th>{{ $category->id }}</th>
                     <td>
                         <a href="/admin/category/{{ $category->id }}">{{ $category->name }}</a>
-                    </td>
-                    <td>
-                        {{ $category->thumb_img }}
                     </td>
                     <td>
                         {{ $category->url }}

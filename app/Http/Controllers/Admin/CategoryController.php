@@ -59,9 +59,14 @@ class CategoryController extends Controller
         $category = new Category;
         $category->name = $request->input('category');
         $category->category_slug = $slugify->slugify($request->input('category'));
-        $category->thumb_img = $request->input('thumb_img');
+        
+        $file = $request->file('hero_img');
+        $name = $file->getClientOriginalName();
+        $file->move('img', $name);
+        $category->hero_img = '/img/'.$name;
+        $category->thumb_img = '/img/'.$name;
+            
         $category->url = $request->input('url');
-        $category->hero_img = $request->input('hero_img');
         $category->parent_id = $request->input('parent_id');
         $category->save();
         return redirect()->action('CategoryController@index');
@@ -107,9 +112,16 @@ class CategoryController extends Controller
         $category = $categories->find($id);
         $category->name = $request->input('category');
         $category->category_slug = $slugify->slugify($request->input('category'));
-        $category->thumb_img = $request->input('thumb_img');
+        
+        $file = $request->file('hero_img');
+        if($file) {
+            $name = $file->getClientOriginalName();
+            $file->move('img', $name);
+            $category->hero_img = '/img/'.$name;
+            $category->thumb_img = '/img/'.$name;
+        }
+
         $category->url = $request->input('url');
-        $category->hero_img = $request->input('hero_img');
         $category->parent_id = $request->input('parent_id');
         $category->save();
         return redirect()->action('CategoryController@index');

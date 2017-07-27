@@ -77,6 +77,7 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
+        // print_r($request->all());
         $slugify = new Slugify();
         $product = new Product;
         $product->name = $request->input('name');
@@ -88,8 +89,17 @@ class ProductController extends Controller
         $product->sub_category_id = $request->input('sub_category');
         $product->sub_category2_id = $request->input('sub_category2');
         $product->manufacturer_id = 1;
-        $product->image_url = $request->input('image_url');
-        $product->thumb_url = $request->input('thumb_url');
+        
+        $file = $request->file('image_url');
+        $name = $file->getClientOriginalName();
+        $file->move('img', $name);
+        $product->image_url = '/img/'.$name;
+        
+        // $file = $request->file('thumb_url');
+        // $name = $file->getClientOriginalName();
+        // $file->move('img', $name);
+        $product->thumb_url = '/img/'.$name;
+        
         $product->code = $request->input('code');
         $product->color = $request->input('color');
         $product->texture = $request->input('texture');
@@ -97,6 +107,8 @@ class ProductController extends Controller
         $product->pack_size = $request->input('pack_size');
         $product->unit_weight = $request->input('unit_weight');
         $product->case_weight = $request->input('case_weight');
+        $product->dimensions = $request->input('dimensions');
+        $product->serving_size = $request->input('serving_size');
         $product->shelf_life = $request->input('shelf_life');
         $product->storage = $request->input('storage');
         $product->energy = $request->input('energy');
@@ -119,7 +131,7 @@ class ProductController extends Controller
                   ->where('product.id', '=', $id)
                   ->join('category', 'product.category_id', '=', 'category.id')
                   ->join('users', 'product.created_by', '=', 'users.id')
-                  ->select('product.id', 'product.name',  'product.description', 'product.tags', 'category.name as category', 'users.name as username', 'product.created_at', 'product.updated_at' )
+                  ->select('product.id', 'product.name',  'product.description', 'product.short_description', 'product.image_url', 'product.dimensions', 'product.serving_size', 'product.shelf_life', 'product.storage', 'product.tags', 'category.name as category', 'users.name as username', 'product.created_at', 'product.updated_at' )
                   ->first();
 
         $data = [ 'data' => $product];
@@ -169,8 +181,18 @@ class ProductController extends Controller
         $product->sub_category_id = $request->input('sub_category');
         $product->sub_category2_id = $request->input('sub_category2');
         $product->manufacturer_id = 1;
-        $product->image_url = $request->input('image_url');
-        $product->thumb_url = $request->input('thumb_url');
+        
+        $file = $request->file('image_url');
+        if($file) {
+            $name = $file->getClientOriginalName();
+            $file->move('img', $name);
+            $product->image_url = '/img/'.$name;
+        
+            // $file = $request->file('thumb_url');
+            // $name = $file->getClientOriginalName();
+            // $file->move('img', $name);
+            $product->thumb_url = '/img/'.$name;
+        }
         $product->code = $request->input('code');
         $product->color = $request->input('color');
         $product->texture = $request->input('texture');
@@ -178,6 +200,8 @@ class ProductController extends Controller
         $product->pack_size = $request->input('pack_size');
         $product->unit_weight = $request->input('unit_weight');
         $product->case_weight = $request->input('case_weight');
+        $product->dimensions = $request->input('dimensions');
+        $product->serving_size = $request->input('serving_size');
         $product->shelf_life = $request->input('shelf_life');
         $product->storage = $request->input('storage');
         $product->energy = $request->input('energy');

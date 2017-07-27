@@ -7,7 +7,7 @@
     		<div class="subtext mb-4"> {{ $feedbackConfig['subtxt'] }} </div>
         @endif
 	</div>
-	<form  action="/contact/footerstore" method="post" class="contact-form form-horizontal">
+	<form  action="/contact/sendmessage" method="post" class="contact-form form-horizontal">
 	  	<div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
 			<div class="col-sm-12">
 				<input name="email" type="email" class="form-control" id="email" placeholder="@lang('messages.email')">

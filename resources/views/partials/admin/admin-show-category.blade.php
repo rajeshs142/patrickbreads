@@ -18,7 +18,7 @@
                     <th>@lang('messages.name')</th>
                     <td>{{ $data->name }}</td>
                 </tr>
-                <tr>
+                <tr class="d-none">
                     <th>@lang('messages.thumb') @lang('messages.image')</th>
                     <td>{{ $data->thumb_img }}</td>
                 </tr>
