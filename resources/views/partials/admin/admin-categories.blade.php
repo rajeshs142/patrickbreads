@@ -1,7 +1,8 @@
 @extends('layouts.app')
 
 @section('body_class', 'default admin-page')
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sortable/0.8.0/css/sortable-theme-bootstrap.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sortable/0.8.0/js/sortable.min.js"></script>
 @section('content')
 <div class="container categories admin">
     <div class="col-md-10 offset-md-1">
@@ -34,12 +35,11 @@
     </div>
     <div class="col-md-10 offset-md-1 table-responsive">
         <h4>@lang('messages.category') @lang('messages.list')</h4>
-        <table class="table table-striped">
+        <table class="table table-striped sortable-theme-bootstrap" data-sortable>
             <thead>
                 <tr>
                     <th>#</th>
                     <th>@lang('messages.category') @lang('messages.name')</th>
-                    <th>@lang('messages.thumb') @lang('messages.image')</th>
                     <th>@lang('messages.category') @lang('messages.url')</th>
                     <th>@lang('messages.hero') @lang('messages.image')</th>
                     <th>@lang('messages.parent') @lang('messages.id')</th>

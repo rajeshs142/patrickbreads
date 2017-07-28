@@ -1,7 +1,8 @@
 @extends('layouts.app')
 
 @section('body_class', 'default admin-page')
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sortable/0.8.0/css/sortable-theme-bootstrap.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sortable/0.8.0/js/sortable.min.js"></script>
 @section('content')
 <div class="container product admin stories">
     <div class="col-md-10 offset-md-1">
@@ -17,16 +18,23 @@
                 <button type="submit" class="btn btn-default">@lang('messages.search')</button>
             </form>
         </div>
-        <table class="table table-striped table-responsive">
+        <table class="table table-striped table-responsive sortable-theme-bootstrap" data-sortable>
             <thead>
                 <tr>
-                    <th><a href="?sort=id">#</a></th>
+                    <th>#</a></th>
+                    <th>@lang('messages.name')</th>
+                    <th>@lang('messages.category')</th>
+                    <th>@lang('messages.author')</th>
+                    <th>@lang('messages.tags')</th>
+                    <th>@lang('messages.updated_at')</th>
+                    <th>@lang('messages.action')</th>
+                    <!-- <th><a href="?sort=id">#</a></th>
                     <th><a href="?sort=name">@lang('messages.name')</a></th>
                     <th><a href="?sort=category_id">@lang('messages.category')</a></th>
                     <th><a href="?sort=user_id">@lang('messages.author')</a></th>
                     <th><a href="?sort=tags">@lang('messages.tags')</a></th>
                     <th><a href="?sort=created_at">@lang('messages.updated_at')</a></th>
-                    <th>@lang('messages.action')</th>
+                    <th>@lang('messages.action')</th> -->
                 </tr>
             </thead>
             <tbody>
