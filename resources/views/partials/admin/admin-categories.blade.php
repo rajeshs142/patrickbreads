@@ -14,7 +14,7 @@
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                     </div>
                     <div class="form-group d-none">
-                        <input type="text" name="thumb_img" placeHolder="Thumb Image">
+                        <input type="file" name="thumb_img" placeHolder="Thumb Image">
                     </div>
                     <div class="form-group">
                         <input type="text" name="url" placeHolder="URL">

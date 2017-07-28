@@ -114,6 +114,7 @@ class CategoryController extends Controller
         $category->category_slug = $slugify->slugify($request->input('category'));
         
         $file = $request->file('hero_img');
+        // print_r($file);
         if($file) {
             $name = $file->getClientOriginalName();
             $file->move('img', $name);

@@ -8,7 +8,7 @@
         <div class="panel panel-default">
             <div class="panel-heading">@lang('messages.update') @lang('messages.category')</div>
             <div class="panel-body">
-                <form method="POST" action="/admin/category/{{ $data->id }}">
+                <form method="POST" action="/admin/category/{{ $data->id }}" enctype="multipart/form-data">
                     <table class="table table-responsive">
                         <tbody>
                             <tr class="form-group">
@@ -26,7 +26,7 @@
                             <tr class="form-group d-none">
                                 <th>@lang('messages.thumb') @lang('messages.image')</th>
                                 <td>
-                                    <input type="text" name="thumb_img" placeholder="Thumb Image" value="{{ $data->thumb_img }}">
+                                    <input type="file" name="thumb_img" placeholder="Thumb Image" value="{{ $data->thumb_img }}">
                                 </td>
                             </tr>
                             <tr class="form-group">
