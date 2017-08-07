@@ -165,7 +165,7 @@ $(function() {
         var i = 0;
         filter.forEach(function( n ) {
             if (i < 10) {
-                var li = $('<li><a href="item/'+n.name+'">'+n.name+'</a></li>');
+                var li = $('<li><a href="/item/'+n.product_slug+'">'+n.name+'</a></li>');
                 ul.append(li);
             }
             i++;

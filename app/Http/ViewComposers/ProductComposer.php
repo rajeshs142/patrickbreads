@@ -21,7 +21,7 @@ class ProductComposer
     public function __construct()
     {
         $this->product = DB::table('product')
-                        ->select('name', 'id')
+                        ->select('name', 'product_slug', 'id')
                         ->where('product.name', '<>', '')
                         ->get();
         Session::put('items', $this->product);
