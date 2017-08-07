@@ -50,6 +50,11 @@ class ComposerServiceProvider extends ServiceProvider
             'partials.banner',
             'App\Http\ViewComposers\BannerComposer'
         );
+        // product
+        view()->composer(
+            'home',
+            'App\Http\ViewComposers\ProductComposer'
+        );
         // config
         view()->composer(
             'layouts.app',

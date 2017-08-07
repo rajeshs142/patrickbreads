@@ -141,6 +141,36 @@ $(function() {
         }
         ]
     });
+    
+    var items = [];
+
+    $.ajax({
+      url: "/api/products"
+    }).done(function(data) {
+        items = data;
+    });
+    
+    $('#search-inpt-nav-top').on('keyup',function() {
+        console.log(this.value);
+        var that = this;
+        var filter = [];
+        var ul = $('#autocomplete');
+        ul.empty();
+        
+        filter = $.grep( items, function( n, i ) {
+          if (n.name.indexOf(that.value) > -1) {
+              return n;
+          }
+        });
+        var i = 0;
+        filter.forEach(function( n ) {
+            if (i < 10) {
+                var li = $('<li><a href="item/'+n.name+'">'+n.name+'</a></li>');
+                ul.append(li);
+            }
+            i++;
+        });
+    });
 });
 
 // feedback form submission
