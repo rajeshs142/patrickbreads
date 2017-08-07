@@ -62,9 +62,10 @@ class ProductPageController extends Controller
                     -> select('product.category_id')
                     ->first();
 
+        // add sub_category2_id later
         $product_categories = DB::table('product')
                     ->where('product.id', $id)
-                    -> select('product.category_id','product.sub_category_id','product.sub_category2_id')
+                    -> select('product.category_id','product.sub_category_id')
                     ->first();
         foreach($product_categories as $product_category) {
             $category_names[] = DB::table('category')
@@ -73,11 +74,13 @@ class ProductPageController extends Controller
                     ->get();
         }
         
-        if($product_categories->sub_category2_id) {
-            $final_category = $product_categories->sub_category2_id;
-            $cat_type = 'sub_category2_id';
-        }
-        else if($product_categories->sub_category_id) {
+        // enable if we are using sub category 2
+        // if($product_categories->sub_category2_id) {
+//             $final_category = $product_categories->sub_category2_id;
+//             $cat_type = 'sub_category2_id';
+//         }
+//         else
+        if($product_categories->sub_category_id) {
             $final_category = $product_categories->sub_category_id;
             $cat_type = 'sub_category_id';
         }
