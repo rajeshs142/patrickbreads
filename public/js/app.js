@@ -151,18 +151,18 @@ $(function() {
     });
     
     $('#search-inpt-nav-top').on('keyup',function() {
-        console.log(this.value);
         var that = this;
         var filter = [];
         var ul = $('#autocomplete');
+        var i = 0;
+        
         ul.empty();
         
         filter = $.grep( items, function( n, i ) {
-          if (n.name.indexOf(that.value) > -1) {
+          if (n.name.toUpperCase().indexOf(that.value.toUpperCase()) > -1) {
               return n;
           }
         });
-        var i = 0;
         filter.forEach(function( n ) {
             if (i < 10) {
                 var li = $('<li><a href="/item/'+n.product_slug+'">'+n.name+'</a></li>');
