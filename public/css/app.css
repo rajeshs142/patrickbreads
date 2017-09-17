@@ -9,7 +9,7 @@ body {
   margin-top: 0; }
   .default.category2 main .category {
     margin-top: 0;
-    color: white;
+    color: red;
     position: relative;
     top: 120px; }
     .default.category2 main .category .wrapper {
@@ -423,6 +423,17 @@ section.products.none {
 #search-inpt {
   width: 200px; }
 
+.autocomplete {
+  background: white;
+  list-style: none;
+  padding: 0;
+  font-size: 18px; }
+  .autocomplete li {
+    padding: 10px 25px;
+    border-bottom: 1px solid #ccc; }
+    .autocomplete li a {
+      color: #000; }
+
 .story {
   z-index: 1;
   position: relative;
@@ -531,6 +542,8 @@ section.products.none {
 
 .specs {
   padding: 0 40px; }
+  .specs label {
+    margin-top: .5rem; }
   .specs .specs-heading {
     padding: 20px 0;
     background: #f9fafb;

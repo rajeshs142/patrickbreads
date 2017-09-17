@@ -38,6 +38,9 @@ Route::resource('/admin/users', 'UsersController');
 // Admin page - Nav
 Route::resource('/admin/nav', 'NavController');
 
+// Admin page - Carousel
+Route::resource('/admin/carousel', 'CarouselController');
+
 // Admin page - Banner
 Route::resource('/admin/banner', 'BannerController');
 

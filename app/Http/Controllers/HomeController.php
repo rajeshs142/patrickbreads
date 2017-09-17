@@ -22,6 +22,10 @@ class HomeController extends Controller
                     ->select('category.id', 'category.name', 'category.category_slug', 'category.hero_img', 'category.thumb_img', 'category.url', 'category.parent_id')
                     ->get();
 
+        $carousel = DB::table('carousel')
+                    ->select('carousel.id', 'carousel.image', 'carousel.heading', 'carousel.description', 'carousel.action_btn', 'carousel.link')
+                    ->get();
+
         // $subCategories = DB::table('category')
         //             ->where('category.name', '<>', '')
         //             ->where('category.parent_id', '<>', '')
@@ -31,6 +35,7 @@ class HomeController extends Controller
         return view('home', [
             //data
             'categories' => $categories,
+            'carousel' => $carousel
         ]);
     }
 }
