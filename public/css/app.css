@@ -9,7 +9,7 @@ body {
   margin-top: 0; }
   .default.category2 main .category {
     margin-top: 0;
-    color: red;
+    color: white;
     position: relative;
     top: 120px; }
     .default.category2 main .category .wrapper {
@@ -233,7 +233,7 @@ body {
     font-variant: normal; }
 
 section.categories {
-  background: ghostwhite;
+  background: #fff;
   text-align: center;
   color: black;
   font-variant-caps: small-caps;
@@ -352,7 +352,7 @@ footer {
   padding-bottom: 4%; }
 
 .section-bg {
-  background: #fafafa; }
+  background: #fff; }
 
 .parallax {
   background-image: url("/img/parallax1.jpg");
