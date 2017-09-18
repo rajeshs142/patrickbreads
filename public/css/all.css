@@ -2740,15 +2740,15 @@ section.products.none {
 #search-inpt {
   width: 200px; }
 
-.autocomplete {
+.autocomplete, #autocomplete {
   background: white;
   list-style: none;
   padding: 0;
   font-size: 18px; }
-  .autocomplete li {
+  .autocomplete li, #autocomplete li {
     padding: 10px 25px;
     border-bottom: 1px solid #ccc; }
-    .autocomplete li a {
+    .autocomplete li a, #autocomplete li a {
       color: #000; }
 
 .story {

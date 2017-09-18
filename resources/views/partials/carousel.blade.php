@@ -10,7 +10,7 @@
               <h4 class="pb-2">{{ $details->description }}</h4>
           </div>
           @if($details->link)
-              <div><a href="{{ $details->link }}" class="btn btn-primary">{{ $details->action_btn }}</a></div>
+              <div><a href="{{ $details->link }}">{{ $details->action_btn }}→</a></div>
           @endif
         </div>
       </div>

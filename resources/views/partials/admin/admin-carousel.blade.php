@@ -23,7 +23,7 @@
                         <input type="text" name="link" placeHolder="Link">
                     </div>
                     <div class="form-group">
-                        <input type="text" name="description" placeHolder="Description">
+                        <textarea type="text"  class="form-control" name="description" placeHolder="Description" rows="5"></textarea>
                     </div>
                     <div class="form-group">
                         <input type="text" name="action_btn" placeHolder="Action button">
@@ -36,7 +36,7 @@
         </div>
     </div>
     <div class="col-md-10 offset-md-1 table-responsive">
-        <h4>@lang('messages.category') @lang('messages.list')</h4>
+        <h4>@lang('messages.carousel') @lang('messages.list')</h4>
         <table class="table table-striped sortable-theme-bootstrap" data-sortable>
             <thead>
                 <tr>
