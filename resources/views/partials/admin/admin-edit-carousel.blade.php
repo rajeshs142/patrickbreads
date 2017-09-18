@@ -40,7 +40,7 @@
                             <tr class="form-group">
                                 <th>@lang('messages.description')</th>
 								<td>
-									<input type="text" name="description" placeholder="Description" value="{{ $data->description }}">
+									<textarea type="text" class="form-control" name="description" placeholder="Description" rows="8" value="{{ $data->description }}"></textarea>
 								</td>
                             </tr>
                             <tr class="form-group">
