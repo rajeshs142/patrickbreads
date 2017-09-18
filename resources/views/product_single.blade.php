@@ -25,9 +25,8 @@
                 </div>
         </div>
         <h2 class="item-name item-heading-wrapper">{{ $product->name }}</h2>
-        
+        <div class="item-description">{{ $product->description }}</div>
         <div class="row item">
-            <div class="item-description">{{ $product->description }}</div>
             <div class="col-sm-6">
                 <img class="item-img" src="{{ $product->thumb_url }}">
             </div>

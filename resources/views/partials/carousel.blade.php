@@ -5,9 +5,13 @@
       <div class="carousel-item">
         <img class="d-block img-fluid col-lg-6" src="{{ $details->image }}" alt="First slide" width="100%">
         <div class="col-lg-6 text-center m-auto">
-          <h2>{{ $details->heading }}</h2>
-		  <div>{{ $details->description }}</div>
-          <div><a href="{{ $details->link }}" class="btn btn-primary">{{ $details->action_btn }}</a></div>
+          <h2 class="pb-3">{{ $details->heading }}</h2>
+		  <div>
+              <h4 class="pb-2">{{ $details->description }}</h4>
+          </div>
+          @if($details->link)
+              <div><a href="{{ $details->link }}" class="btn btn-primary">{{ $details->action_btn }}</a></div>
+          @endif
         </div>
       </div>
     @endforeach
