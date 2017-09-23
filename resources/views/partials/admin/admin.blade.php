@@ -11,6 +11,8 @@
                 <div class="panel-body">
                     <ul class="container-fluid">
                         <li><a href="/admin/banner">@lang('messages.banner')</a></li>
+                        <li><a href="/admin/cataloguebrands">@lang('messages.cataloguebrands')</a></li>
+                        <li><a href="/admin/cataloguedetails">@lang('messages.cataloguedetails')</a></li>
                         <li><a href="/admin/category">@lang('messages.categories')</a></li>
                         <li><a href="/admin/carousel">@lang('messages.carousel')</a></li>
                         <li><a href="/admin/nav">@lang('messages.navigation')</a></li>

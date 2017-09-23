@@ -55,3 +55,16 @@ Route::post('/contact/sendmessage', 'ContactController@store');
 Route::get('/api/products', function() {
     return Session::get('items');
 });
+
+
+// catalogues
+
+Route::get('/catalogue1', 'CatalogueController@catalogue1');
+Route::get('/catalogue2', 'CatalogueController@catalogue2');
+Route::get('/catalogue3', 'CatalogueController@catalogue3');
+
+// Admin page - Catalogue details
+Route::resource('/admin/cataloguedetails', 'CataloguedetailsController');
+
+// Admin page - Catalogue brands
+Route::resource('/admin/cataloguebrands', 'CataloguebrandsController');

@@ -12,6 +12,7 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
+    mix.sass('catalogue.scss');
     mix.sass('app.scss');
     mix.sass('slick-theme.scss');
     mix.sass('slick.scss');
@@ -25,6 +26,11 @@ elixir(function(mix) {
         "slick-theme.css"
     ], 'public/css/all.css', 'public/css');
 
+    mix.styles([
+        "catalogue.css",
+    ], 'public/css/catalogue.css', 'public/css');
+    
+    
     mix.scripts([
         "jquery.min.js",
         "tether.min.js",
@@ -34,5 +40,5 @@ elixir(function(mix) {
         "app.js"
     ], 'public/js/all.js', 'public/js');
 
-    mix.version(["/css/all.css", "/js/all.js"]);
+    mix.version(["/css/catalogue.css", "/css/all.css", "/js/all.js"]);
 });
