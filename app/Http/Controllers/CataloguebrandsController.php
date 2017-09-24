@@ -80,8 +80,8 @@ class CataloguebrandsController extends Controller
         $cataloguebrands->website = $request->input('website');
         $cataloguebrands->background_color = $request->input('background_color');
         $cataloguebrands->footertext1 = $request->input('footertext1');
-		$cataloguebrands->footertext2 = $request->input('footertext2');
-		$cataloguebrands->no_of_products = $request->input('no_of_products');
+        $cataloguebrands->footertext2 = $request->input('footertext2');
+        $cataloguebrands->no_of_products = $request->input('no_of_products');
         $cataloguebrands->save();
         return redirect()->action('CataloguebrandsController@index');
     }
@@ -128,24 +128,21 @@ class CataloguebrandsController extends Controller
         $logo = $request->file('logo');
         // print_r($file);
         if($logo) {
-	        $name = $logo->getClientOriginalName();
-	        $logo->move('img/cataloguebrands', $name);
-	        $cataloguebrands->logo = '/img/cataloguebrands/'.$name;
-            
+            $name = $logo->getClientOriginalName();
+            $logo->move('img/cataloguebrands', $name);
+            $cataloguebrands->logo = '/img/cataloguebrands/'.$name;
         }
         $cobrand = $request->file('cobrand_logo');
         if($cobrand) {
-	        $name = $cobrand->getClientOriginalName();
-	        $cobrand->move('img/cataloguebrands', $name);
-	        $cataloguebrands->cobrand_logo = '/img/cataloguebrands/'.$name;
-            
+            $name = $cobrand->getClientOriginalName();
+            $cobrand->move('img/cataloguebrands', $name);
+            $cataloguebrands->cobrand_logo = '/img/cataloguebrands/'.$name;
         }
         $backgroundimage = $request->file('background_image');
         if($backgroundimage) {
-	        $name = $backgroundimage->getClientOriginalName();
-	        $backgroundimage->move('img/cataloguebrands', $name);
-	        $cataloguebrands->background_image = '/img/cataloguebrands/'.$name;
-            
+            $name = $backgroundimage->getClientOriginalName();
+            $backgroundimage->move('img/cataloguebrands', $name);
+            $cataloguebrands->background_image = '/img/cataloguebrands/'.$name;
         }
         $cataloguebrands->banner = $request->input('banner');
         $cataloguebrands->email = $request->input('email');
@@ -153,8 +150,8 @@ class CataloguebrandsController extends Controller
         $cataloguebrands->website = $request->input('website');
         $cataloguebrands->background_color = $request->input('background_color');
         $cataloguebrands->footertext1 = $request->input('footertext1');
-		$cataloguebrands->footertext2 = $request->input('footertext2');
-		$cataloguebrands->no_of_products = $request->input('no_of_products');
+        $cataloguebrands->footertext2 = $request->input('footertext2');
+        $cataloguebrands->no_of_products = $request->input('no_of_products');
         $cataloguebrands->save();
         return redirect()->action('CataloguebrandsController@index');
     }
