@@ -8,6 +8,8 @@ use App\Http\Requests;
 
 use App\Cataloguedetail;
 
+use Validator;
+
 class CataloguedetailsController extends Controller
 {   
     /**
@@ -51,6 +53,11 @@ class CataloguedetailsController extends Controller
      */
     public function store(Request $request)
     {   
+        $this->validate($request,[
+            'title' => 'required',
+            'price' => 'required',
+           'image' => 'required'
+        ]);
         // $slugify = new Slugify();
         $cataloguedetails = new Cataloguedetail;
         // $cataloguedetails->name = $request->input('cataloguedetails');
@@ -103,8 +110,13 @@ class CataloguedetailsController extends Controller
      */
     public function update(Request $request, $id)
     {   
-        $cataloguedetailss = new Cataloguedetail;
-        $cataloguedetails = $cataloguedetailss->find($id);
+        $this->validate($request,[
+            'title' => 'required',
+            'price' => 'required'
+        ]);
+        
+        $cataloguedetails = new Cataloguedetail;
+        $cataloguedetails = $cataloguedetails->find($id);
         // $cataloguedetails->name = $request->input('cataloguedetails');
         
         $file = $request->file('image');

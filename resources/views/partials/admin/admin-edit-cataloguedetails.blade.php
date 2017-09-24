@@ -9,6 +9,13 @@
             <div class="panel-heading">@lang('messages.update') @lang('messages.cataloguedetails')</div>
             <div class="panel-body">
                 <form method="POST" action="/admin/cataloguedetails/{{ $data->id }}" enctype="multipart/form-data">
+                    @if(isset($errors))
+                        @foreach($errors->all() as $error)
+                        <div class="text-danger">
+                            {{ $error }}
+                        </div>
+                        @endforeach
+                    @endif
                     <table class="table table-responsive">
                         <tbody>
                             <tr class="form-group">
@@ -22,44 +29,44 @@
                             <tr class="form-group">
                                 <th>@lang('messages.brand_id')</th>
                                 <td>
-                                    <input type="text" name="brand_id" placeholder="Brand Id" value="{{ $data->brand_id }}">
+                                    <input type="text" name="brand_id" placeholder="Brand Id" value="{{ $data->brand_id }}" class="p-2">
                                 </td>
                             </tr>
                             <tr class="form-group">
                                 <th>@lang('messages.price')</th>
                                 <td>
-                                    <input type="text" name="price" placeholder="price" value="{{ $data->price }}">
+                                    <input type="text" name="price" placeholder="price" value="{{ $data->price }}" class="p-2">
                                 </td>
                             </tr>
                             <tr class="form-group">
                                 <th>@lang('messages.image')</th>
                                 <td>
-                                    <input type="file" name="image" placeholder="Image" value="{{ $data->image }}">
+                                    <input type="file" name="image" placeholder="Image" value="{{ $data->image }}" class="p-2">
                                     <div>{{ $data->image }}</div>
                                 </td>
                             </tr>
                             <tr class="form-group">
                                 <th>@lang('messages.title')</th>
                                 <td>
-                                    <input type="text" name="title" placeholder="Title" value="{{ $data->title }}">
+                                    <input type="text" name="title" placeholder="Title" value="{{ $data->title }}" class="p-2">
                                 </td>
                             </tr>
                             <tr class="form-group">
                                 <th>@lang('messages.weight')</th>
                                 <td>
-                                    <input type="text" name="weight" placeholder="Weight" value="{{ $data->weight }}">
+                                    <input type="text" name="weight" placeholder="Weight" value="{{ $data->weight }}" class="p-2">
                                 </td>
                             </tr>
                             <tr class="form-group">
                                 <th>@lang('messages.packsize')</th>
                                 <td>
-                                    <input type="text" name="packsize" placeholder="Pack Size" value="{{ $data->packsize }}">
+                                    <input type="text" name="packsize" placeholder="Pack Size" value="{{ $data->packsize }}" class="p-2">
                                 </td>
                             </tr>
                             <tr class="form-group">
                                 <th>@lang('messages.action_btn')</th>
                                 <td>
-                                    <input type="text" name="action_btn" placeholder="Discount" value="{{ $data->action_btn }}">
+                                    <input type="text" name="action_btn" placeholder="Discount" value="{{ $data->action_btn }}" class="p-2">
                                 </td>
                             <tr class="form-group">
                                 <th>@lang('messages.created_at')</th>

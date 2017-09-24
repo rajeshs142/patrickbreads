@@ -519,7 +519,7 @@ section.products.none {
 
 .carousel {
   color: black;
-/*  font-variant-caps: small-caps;*/
+  font-variant-caps: small-caps;
   padding: 40px 12%;
   margin-bottom: 60px; }
   .carousel .carousel-indicators {

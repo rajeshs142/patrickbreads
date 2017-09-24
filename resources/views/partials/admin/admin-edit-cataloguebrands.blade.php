@@ -16,75 +16,75 @@
                                 <td>{{ $data->id }}</td>
                                 <td>
                                     <input type="hidden" name="_method" value="PUT">
-                                    <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                                    <input type="hidden" name="_token" value="{{ csrf_token() }}" class="p-2">
                                 </td>
                             </tr>
                             <tr class="form-group">
                                 <th>@lang('messages.banner')</th>
                                 <td>
-                                    <input type="text" name="banner" placeholder="Banner" value="{{ $data->banner }}">
+                                    <input type="text" name="banner" placeholder="Banner" value="{{ $data->banner }}" class="p-2">
                                 </td>
                             </tr>
                             <tr class="form-group">
                                 <th>@lang('messages.logo')</th>
                                 <td>
-                                    <input type="file" name="logo" placeholder="Logo" value="{{ $data->logo }}">
+                                    <input type="file" name="logo" placeholder="Logo" value="{{ $data->logo }}" class="p-2">
                                     <div>{{ $data->logo }}</div>
                                 </td>
                             </tr>
                             <tr class="form-group">
                                 <th>@lang('messages.email')</th>
                                 <td>
-                                    <input type="text" name="heading" placeholder="email" value="{{ $data->email }}">
+                                    <input type="text" name="email" placeholder="email" value="{{ $data->email }}" class="p-2">
                                 </td>
                             </tr>
                             <tr class="form-group">
                                 <th>@lang('messages.phone_number')</th>
                                 <td>
-                                    <input type="text" name="phone_number" placeholder="Phone number" value="{{ $data->phone_number }}">
+                                    <input type="text" name="phone_number" placeholder="Phone number" value="{{ $data->phone_number }}" class="p-2">
                                 </td>
                             </tr>
                             <tr class="form-group">
                                 <th>@lang('messages.website')</th>
                                 <td>
-                                    <input type="text" name="website" placeholder="Description" value="{{ $data->website }}">
+                                    <input type="text" name="website" placeholder="Description" value="{{ $data->website }}" class="p-2">
                                 </td>
                             </tr>
                             <tr class="form-group">
                                 <th>@lang('messages.background_image')</th>
                                 <td>
-                                    <input type="file" name="background_image" placeholder="Background image" value="{{ $data->background_image }}">
+                                    <input type="file" name="background_image" placeholder="Background image" value="{{ $data->background_image }}" class="p-2">
                                     <div>{{ $data->background_image }}</div>
                                 </td>
                             </tr>
                             <tr class="form-group">
                                 <th>@lang('messages.background_color')</th>
                                 <td>
-                                    <input type="text" name="background_color" placeholder="Background color" value="{{ $data->background_color }}">
+                                    <input type="text" name="background_color" placeholder="Background color" value="{{ $data->background_color }}" class="p-2">
                                 </td>
                             </tr>
                             <tr class="form-group">
                                 <th>@lang('messages.footertext1')</th>
                                 <td>
-                                    <input type="text" name="footertext1" placeholder="Footer Text1" value="{{ $data->footertext1 }}">
+                                    <textarea type="text" name="footertext1" placeholder="Footer Text1" rows="4" style="width:100%;">{{ $data->footertext1 }}</textarea>                                    
                                 </td>
                             </tr>
                             <tr class="form-group">
                                 <th>@lang('messages.footertext2')</th>
                                 <td>
-                                    <input type="text" name="footertext2" placeholder="Footer Text2" value="{{ $data->footertext2 }}">
+                                    <textarea type="text" name="footertext2" placeholder="Footer Text2" rows="4" style="width:100%;">{{ $data->footertext2 }}</textarea>                                    
                                 </td>
                             </tr>
                             <tr class="form-group">
                                 <th>@lang('messages.no_of_products')</th>
                                 <td>
-                                    <input type="text" name="no_of_products" placeholder="No of Products" value="{{ $data->no_of_products }}">
+                                    <input type="text" name="no_of_products" placeholder="No of Products" value="{{ $data->no_of_products }}" class="p-2">
                                 </td>
                             </tr>
                             <tr class="form-group">
                                 <th>@lang('messages.cobrand_logo')</th>
                                 <td>
-                                    <input type="file" name="cobrand_logo" placeholder="Cobrand logo" value="{{ $data->cobrand_logo }}">
+                                    <input type="file" name="cobrand_logo" placeholder="Cobrand logo" value="{{ $data->cobrand_logo }}" class="p-2">
                                     <div>{{ $data->cobrand_logo }}</div>
                                 </td>
                             </tr>

@@ -10,29 +10,37 @@
             <div class="panel-heading">@lang('messages.cataloguedetails')</div>
             <div class="panel-body">
                 <form method="POST" action="/admin/cataloguedetails" enctype="multipart/form-data">
+                    @if(isset($errors))
+                        @foreach($errors->all() as $error)
+                        <div class="text-danger">
+                            {{ $error }}
+                        </div>
+                        @endforeach
+                    @endif
                     <div class="form-group">
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                     </div>
                     <div class="form-group ">
-                        <input type="text" name="brand_id" placeHolder="Brand ID">
+                        <input type="text" name="title" placeHolder="Item Title" class="p-2" value="{{  old('title') }}"><span class="pl-2 text-danger">*</span>
                     </div>
                     <div class="form-group">
-                        <input type="file" name="image" placeHolder="Image">
+                        <span>Item Image</span><span class="pl-2 text-danger">*</span>
+                        <input type="file" name="image" placeHolder="Image" class="p-2" value="{{  old('image') }}">
                     </div>
                     <div class="form-group ">
-                        <input type="text" name="price" placeHolder="Price">
+                        <input type="text" name="price" placeHolder="Item Price" class="p-2" value="{{  old('price') }}"><span class="pl-2 text-danger">*</span>
                     </div>
                     <div class="form-group ">
-                        <input type="text" name="title" placeHolder="Title">
+                        <input type="text" name="weight" placeHolder="Item Weight" class="p-2" value="{{  old('weight') }}">
                     </div>
                     <div class="form-group ">
-                        <input type="text" name="weight" placeHolder="Weight">
+                        <input type="text" name="packsize" placeHolder="Item Pack size" class="p-2" value="{{  old('packsize') }}">
                     </div>
                     <div class="form-group ">
-                        <input type="text" name="packsize" placeHolder="Packsize">
+                        <input type="text" name="action_btn" placeHolder="Item Discount" class="p-2" value="{{  old('action_btn') }}">
                     </div>
                     <div class="form-group ">
-                        <input type="text" name="action_btn" placeHolder="Discount">
+                        <input type="text" name="brand_id" placeHolder="Brand ID" class="p-2" value="{{  old('brand_id') }}">
                     </div>
                     <div class="form-group">
                         <button class="btn btn-primary" type="submit">@lang('messages.create') @lang('messages.cataloguedetails')</button>
@@ -47,13 +55,13 @@
             <thead>
                 <tr>
                     <th>#</th>
-                    <th>@lang('messages.brand_id')</th>
-                    <th>@lang('messages.price')</th>
-                    <th>@lang('messages.image')</th>
                     <th>@lang('messages.title')</th>
+                    <th>@lang('messages.image')</th>
+                    <th>@lang('messages.price')</th>
                     <th>@lang('messages.weight')</th>
-                    <th>@lang('messages.packsize')</th>
+                    <th>@lang('messages.pack_size')</th>
                     <th>@lang('messages.action_btn')</th>
+                    <th>@lang('messages.brand_id')</th>
                     <th>@lang('messages.action')</th>
                 </tr>
             </thead>
@@ -62,16 +70,13 @@
                 <tr>
                     <th>{{ $cataloguedetails->id }}</th>
                     <td>
-                        {{ $cataloguedetails->brand_id }}
-                    </td>
-                    <td>
-                        {{ $cataloguedetails->price }}
+                        {{ $cataloguedetails->title }}
                     </td>
                     <td>
                         {{ $cataloguedetails->image }}
                     </td>
                     <td>
-                        {{ $cataloguedetails->title }}
+                        {{ $cataloguedetails->price }}
                     </td>
                     <td>
                         {{ $cataloguedetails->weight }}
@@ -81,6 +86,9 @@
                     </td>
                     <td>
                         {{ $cataloguedetails->action_btn }}
+                    </td>
+                    <td>
+                        {{ $cataloguedetails->brand_id }}
                     </td>
                     <td>
                         <a class="update" href="/admin/cataloguedetails/{{ $cataloguedetails->id }}/edit">@lang('messages.update')</a>

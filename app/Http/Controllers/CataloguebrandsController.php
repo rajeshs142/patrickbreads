@@ -51,6 +51,10 @@ class CataloguebrandsController extends Controller
      */
     public function store(Request $request)
     {   
+        $this->validate($request,[
+            'logo' => 'required'
+        ]);
+        
         $cataloguebrands = new Cataloguebrand;
         // $cataloguebrands->name = $request->input('cataloguebrands');
         $logo = $request->file('logo');
@@ -59,15 +63,17 @@ class CataloguebrandsController extends Controller
         $cataloguebrands->logo = '/img/cataloguebrands/'.$name;
         
         $cobrand = $request->file('cobrand_logo');
-        $name = $cobrand->getClientOriginalName();
-        $cobrand->move('img/cataloguebrands', $name);
-        $cataloguebrands->cobrand_logo = '/img/cataloguebrands/'.$name;
-        
+        if($cobrand) {
+            $name = $cobrand->getClientOriginalName();
+            $cobrand->move('img/cataloguebrands', $name);
+            $cataloguebrands->cobrand_logo = '/img/cataloguebrands/'.$name;
+        }
         $backgroundimage = $request->file('background_image');
-        $name = $backgroundimage->getClientOriginalName();
-        $backgroundimage->move('img/cataloguebrands', $name);
-        $cataloguebrands->background_image = '/img/cataloguebrands/'.$name;
-        
+        if($backgroundimage) {
+            $name = $backgroundimage->getClientOriginalName();
+            $backgroundimage->move('img/cataloguebrands', $name);
+            $cataloguebrands->background_image = '/img/cataloguebrands/'.$name;
+        }
         $cataloguebrands->banner = $request->input('banner');
         $cataloguebrands->email = $request->input('email');
         $cataloguebrands->phone_number = $request->input('phone_number');
