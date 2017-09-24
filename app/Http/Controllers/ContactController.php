@@ -9,7 +9,7 @@ use App\Http\Requests;
 use Mail;
 
 use Illuminate\Support\Facades\Input;
-use \Validator;
+use Validator;
 //use App\Http\JsonResponse;
 class ContactController extends Controller
 {
@@ -28,10 +28,12 @@ class ContactController extends Controller
         $validator = Validator::make($request->all(), [
             'name' => 'required',
             'message' => 'required',
-            'email' => 'required',
-            'g-recaptcha-response' => 'required|recaptcha'
+            'email' => 'required'//,
+            // 'g-recaptcha-response' => 'required|recaptcha'
         ]);
-
+        
+        
+        print_r($validator->fails());
         if($validator->fails()) {
             $errors = $validator->errors();
             $errors =  json_decode($errors);
