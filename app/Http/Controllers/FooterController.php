@@ -18,8 +18,9 @@ class FooterController extends Controller
         $validator = Validator::make($request->all(), [
             'name' => 'required',
             'message' => 'required',
-            'email' => 'required',
-            'g-recaptcha-response' => 'required|recaptcha'
+            'email' => 'required'
+                // ,
+//             'g-recaptcha-response' => 'required|recaptcha'
         ]);
 
         if($validator->fails()) {
