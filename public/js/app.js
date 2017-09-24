@@ -205,6 +205,7 @@ $(document).ready(function() {
                     $('.contact-form .modal-body').prepend('<div class="alert alert-success">' + data.message + '</div>');
             },
             error: function(data) {
+                console.log(data);
                 var responseText = data && data.responseText;
                 responseText = jQuery.parseJSON(responseText);
                 var errors = responseText && responseText.message;

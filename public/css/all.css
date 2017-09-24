@@ -3050,6 +3050,10 @@ section.products.none {
         border-radius: 4px;
     } */ }
 
+@media (max-width: 767px) {
+  section.hero-single {
+    background-attachment: scroll; } }
+
 @media (max-width: 767px) and (orientation: landscape) {
   .default.category2 main {
     background-size: 100%;
