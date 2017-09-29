@@ -4,7 +4,7 @@
     <main class="container-fluid p-3">
     	<div class="row">
             @foreach ($cataloguedetails as $key => $details)
-                @if($key == 4)
+                @if($key == 4 && $cobrand_logo)
                 <div class="col-4 bd-6 bg-f7f7f7 p-3">
                 	<img src="{{ $cobrand_logo }}" class="main-icon">
                 </div>
@@ -52,10 +52,16 @@
         </div>
     </main>
     <style>
-        header, footer {
-            background: {{ $background_color }};
-           	background: url('{{ $background_image }}');
-       }
+       @if($background_image)
+               header, .footer {
+                  background: url('{{ $background_image }}');
+               }
+       @else
+               header, .footer {
+                  background: {{ $background_color }};
+               }
+
+       @endif
     </style>
     @include('partials.catalogue.footer')
 @endsection

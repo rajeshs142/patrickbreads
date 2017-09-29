@@ -26,9 +26,7 @@ elixir(function(mix) {
         "slick-theme.css"
     ], 'public/css/all.css', 'public/css');
 
-    mix.styles([
-        "catalogue.css",
-    ], 'public/css/catalogue.css', 'public/css');
+    mix.styles([], 'public/css/catalogue.css', 'public/css');
     
     
     mix.scripts([
