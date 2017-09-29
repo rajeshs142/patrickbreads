@@ -347,6 +347,9 @@ section.categories {
             box-shadow: 1px 2px 2px #eee;
             a {
                 color: inherit;
+                height: 200px;
+                display: inline-block;
+                vertical-align: top;
             }
             img {
                 /* padding: 20px; */
@@ -519,6 +522,11 @@ section.products.none {
         padding: 0 32px 47px 32px;
         border: 1px solid #eee;
         box-shadow: 1px 2px 2px #eee;
+        a {
+            height: 200px;
+            display: inline-block;
+            vertical-align: top;
+        }
         img {
             background: #fafafa;
             width: 200px;

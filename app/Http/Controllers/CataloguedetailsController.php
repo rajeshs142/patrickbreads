@@ -63,6 +63,7 @@ class CataloguedetailsController extends Controller
         // $cataloguedetails->name = $request->input('cataloguedetails');
         $file = $request->file('image');
         $name = $file->getClientOriginalName();
+        $name = str_replace(' ', '-', $name);
         $file->move('img/cataloguedetails', $name);
         $cataloguedetails->image = '/img/cataloguedetails/'.$name;
         $cataloguedetails->brand_id = $request->input('brand_id');
@@ -123,6 +124,7 @@ class CataloguedetailsController extends Controller
         // print_r($file);
         if($file) {
 	        $name = $file->getClientOriginalName();
+            $name = str_replace(' ', '-', $name);
 	        $file->move('img/cataloguedetails', $name);
 	        $cataloguedetails->image = '/img/cataloguedetails/'.$name;
         }

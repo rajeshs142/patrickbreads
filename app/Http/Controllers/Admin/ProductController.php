@@ -106,15 +106,21 @@ class ProductController extends Controller
         $product->manufacturer_id = 1;
         
         $file = $request->file('image_url');
-        $name = $file->getClientOriginalName();
-        $file->move('img', $name);
-        $product->image_url = '/img/'.$name;
+        if($file) {
+            $name = $file->getClientOriginalName();
+            $name = str_replace(' ', '-', $name);
+            $file->move('img', $name);
+            $product->image_url = '/img/'.$name;
         
-        // $file = $request->file('thumb_url');
-        // $name = $file->getClientOriginalName();
-        // $file->move('img', $name);
-        $product->thumb_url = '/img/'.$name;
-        
+            // $file = $request->file('thumb_url');
+            // $name = $file->getClientOriginalName();
+            // $file->move('img', $name);
+            $product->thumb_url = '/img/'.$name;
+        }
+        else {
+            $product->image_url = '/img/breads_g.png';
+            $product->thumb_url = '/img/breads_g.png';            
+        }
         $product->code = $request->input('code');
         $product->color = $request->input('color');
         $product->texture = $request->input('texture');
@@ -211,6 +217,7 @@ class ProductController extends Controller
         $file = $request->file('image_url');
         if($file) {
             $name = $file->getClientOriginalName();
+            $name = str_replace(' ', '-', $name);
             $file->move('img', $name);
             $product->image_url = '/img/'.$name;
         
@@ -218,6 +225,10 @@ class ProductController extends Controller
             // $name = $file->getClientOriginalName();
             // $file->move('img', $name);
             $product->thumb_url = '/img/'.$name;
+        }
+        else {
+            $product->image_url = '/img/breads_g.png';
+            $product->thumb_url = '/img/breads_g.png';            
         }
         $product->code = $request->input('code');
         $product->color = $request->input('color');
