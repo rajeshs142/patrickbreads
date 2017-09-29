@@ -60,7 +60,6 @@
                header, .footer {
                   background: {{ $background_color }};
                }
-
        @endif
     </style>
     @include('partials.catalogue.footer')

@@ -61,11 +61,17 @@ class CategoryController extends Controller
         $category->category_slug = $slugify->slugify($request->input('category'));
         
         $file = $request->file('hero_img');
+        if($file) {
         $name = $file->getClientOriginalName();
+        $name = str_replace(' ', '-', $name);
         $file->move('img', $name);
         $category->hero_img = '/img/'.$name;
         $category->thumb_img = '/img/'.$name;
-            
+        }
+        else {
+            $category->hero_img = '/img/c_breads_tp.png';
+            $category->thumb_img = '/img/breads_g.png';            
+        }
         $category->url = $request->input('url');
         $category->parent_id = $request->input('parent_id');
         $category->save();
@@ -117,11 +123,15 @@ class CategoryController extends Controller
         // print_r($file);
         if($file) {
             $name = $file->getClientOriginalName();
+            $name = str_replace(' ', '-', $name);
             $file->move('img', $name);
             $category->hero_img = '/img/'.$name;
             $category->thumb_img = '/img/'.$name;
         }
-
+        else {
+            $category->hero_img = '/img/c_breads_tp.png';
+            $category->thumb_img = '/img/breads_g.png';            
+        }
         $category->url = $request->input('url');
         $category->parent_id = $request->input('parent_id');
         $category->save();

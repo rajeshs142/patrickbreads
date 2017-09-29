@@ -59,18 +59,21 @@ class CataloguebrandsController extends Controller
         // $cataloguebrands->name = $request->input('cataloguebrands');
         $logo = $request->file('logo');
         $name = $logo->getClientOriginalName();
+        $name = str_replace(' ', '-', $name);
         $logo->move('img/cataloguebrands', $name);
         $cataloguebrands->logo = '/img/cataloguebrands/'.$name;
         
         $cobrand = $request->file('cobrand_logo');
         if($cobrand) {
             $name = $cobrand->getClientOriginalName();
+            $name = str_replace(' ', '-', $name);
             $cobrand->move('img/cataloguebrands', $name);
             $cataloguebrands->cobrand_logo = '/img/cataloguebrands/'.$name;
         }
         $backgroundimage = $request->file('background_image');
         if($backgroundimage) {
             $name = $backgroundimage->getClientOriginalName();
+            $name = str_replace(' ', '-', $name);
             $backgroundimage->move('img/cataloguebrands', $name);
             $cataloguebrands->background_image = '/img/cataloguebrands/'.$name;
         }
@@ -129,18 +132,21 @@ class CataloguebrandsController extends Controller
         // print_r($file);
         if($logo) {
             $name = $logo->getClientOriginalName();
+            $name = str_replace(' ', '-', $name);
             $logo->move('img/cataloguebrands', $name);
             $cataloguebrands->logo = '/img/cataloguebrands/'.$name;
         }
         $cobrand = $request->file('cobrand_logo');
         if($cobrand) {
             $name = $cobrand->getClientOriginalName();
+            $name = str_replace(' ', '-', $name);
             $cobrand->move('img/cataloguebrands', $name);
             $cataloguebrands->cobrand_logo = '/img/cataloguebrands/'.$name;
         }
         $backgroundimage = $request->file('background_image');
         if($backgroundimage) {
             $name = $backgroundimage->getClientOriginalName();
+            $name = str_replace(' ', '-', $name);
             $backgroundimage->move('img/cataloguebrands', $name);
             $cataloguebrands->background_image = '/img/cataloguebrands/'.$name;
         }

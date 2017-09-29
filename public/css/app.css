@@ -255,7 +255,10 @@ section.categories {
       border: 1px solid #eee;
       box-shadow: 1px 2px 2px #eee; }
       section.categories li .category-wrapper a {
-        color: inherit; }
+        color: inherit;
+        height: 200px;
+        display: inline-block;
+        vertical-align: top; }
       section.categories li .category-wrapper img {
         /* padding: 20px; */
         background: #fafafa;
@@ -383,6 +386,10 @@ section.products.none {
     padding: 0 32px 47px 32px;
     border: 1px solid #eee;
     box-shadow: 1px 2px 2px #eee; }
+    .products .product-wrapper a {
+      height: 200px;
+      display: inline-block;
+      vertical-align: top; }
     .products .product-wrapper img {
       background: #fafafa;
       width: 200px; }

@@ -17,7 +17,11 @@
                     <div class="category-name">
                         {{ $category->name }}
                     </div>
-                    <img src="{{ $category->thumb_img }}" height="auto">
+                    @if($category->thumb_img==NULL)
+                        <img src="img/breads_g.png" height="auto">
+                    @else
+                        <img src="{{ $category->thumb_img }}" height="auto">
+                    @endif
                 </a>
             </div>
         </li>
