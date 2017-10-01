@@ -23,10 +23,10 @@
                                     <input type="hidden" name="_token" value="{{ csrf_token() }}">
                                 </td>
                             </tr>
-                            <tr class="form-group d-none">
+                            <tr class="form-group">
                                 <th>@lang('messages.thumb') @lang('messages.image')</th>
                                 <td>
-                                    <input type="file" name="thumb_img" placeholder="Thumb Image" value="{{ $data->thumb_img }}">
+                                    <input type="file" name="thumb_img" placeholder="Thumb Image" value="{{ $data->thumb_img }}">{{ $data->thumb_img }}
                                 </td>
                             </tr>
                             <tr class="form-group">

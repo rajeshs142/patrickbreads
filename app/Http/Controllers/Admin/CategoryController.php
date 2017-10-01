@@ -60,18 +60,30 @@ class CategoryController extends Controller
         $category->name = $request->input('category');
         $category->category_slug = $slugify->slugify($request->input('category'));
         
-        $file = $request->file('hero_img');
-        if($file) {
-        $name = $file->getClientOriginalName();
-        $name = str_replace(' ', '-', $name);
-        $file->move('img', $name);
-        $category->hero_img = '/img/'.$name;
-        $category->thumb_img = '/img/'.$name;
+        // thumb img
+        $thumb_file = $request->file('thumb_img');
+        if($thumb_file) {
+            $name = $thumb_file->getClientOriginalName();
+            $name = str_replace(' ', '-', $name);
+            $thumb_file->move('img', $name);
+            $category->thumb_img = '/img/'.$name;
+        }
+        else {
+            $category->thumb_img = '/img/breads_g.png';            
+        }
+        
+        // hero img
+        $hero_file = $request->file('hero_img');
+        if($hero_file) {
+            $name = $hero_file->getClientOriginalName();
+            $name = str_replace(' ', '-', $name);
+            $hero_file->move('img', $name);
+            $category->hero_img = '/img/'.$name;
         }
         else {
             $category->hero_img = '/img/c_breads_tp.png';
-            $category->thumb_img = '/img/breads_g.png';            
         }
+        
         $category->url = $request->input('url');
         $category->parent_id = $request->input('parent_id');
         $category->save();
@@ -118,19 +130,29 @@ class CategoryController extends Controller
         $category = $categories->find($id);
         $category->name = $request->input('category');
         $category->category_slug = $slugify->slugify($request->input('category'));
-        
-        $file = $request->file('hero_img');
-        // print_r($file);
-        if($file) {
-            $name = $file->getClientOriginalName();
+
+        // thumb img
+        $thumb_file = $request->file('thumb_img');
+        if($thumb_file) {
+            $name = $thumb_file->getClientOriginalName();
             $name = str_replace(' ', '-', $name);
-            $file->move('img', $name);
-            $category->hero_img = '/img/'.$name;
+            $thumb_file->move('img', $name);
             $category->thumb_img = '/img/'.$name;
         }
         else {
-            $category->hero_img = '/img/c_breads_tp.png';
             $category->thumb_img = '/img/breads_g.png';            
+        }
+        
+        // hero img
+        $hero_file = $request->file('hero_img');
+        if($hero_file) {
+            $name = $hero_file->getClientOriginalName();
+            $name = str_replace(' ', '-', $name);
+            $hero_file->move('img', $name);
+            $category->hero_img = '/img/'.$name;
+        }
+        else {
+            $category->hero_img = '/img/c_breads_tp.png';
         }
         $category->url = $request->input('url');
         $category->parent_id = $request->input('parent_id');

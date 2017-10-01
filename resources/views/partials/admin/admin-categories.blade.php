@@ -10,20 +10,25 @@
             <div class="panel-heading">@lang('messages.category')</div>
             <div class="panel-body">
                 <form method="POST" action="/admin/category" enctype="multipart/form-data">
-                    <div class="form-group">
+                    <div class="form-group row">
+                        <label class="control-label col-3">Name</label>
                         <input type="text" id="story-title" name="category" placeHolder="Category Name">
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                     </div>
-                    <div class="form-group d-none">
+                    <div class="form-group row">
+                        <label class="control-label col-3">Thumb Img</label>
                         <input type="file" name="thumb_img" placeHolder="Thumb Image">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group row">
+                        <label class="control-label col-3">Url</label>
                         <input type="text" name="url" placeHolder="URL">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group row">
+                        <label class="control-label col-3">Hero Img</label>
                         <input type="file" name="hero_img">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group row">
+                        <label class="control-label col-3">Parent Category Id</label>
                         <input type="text" name="parent_id" placeHolder="Parent Category Id">
                     </div>
                     <div class="form-group">
@@ -40,6 +45,7 @@
                 <tr>
                     <th>#</th>
                     <th>@lang('messages.category') @lang('messages.name')</th>
+                    <th>@lang('messages.thumb') @lang('messages.image')</th>
                     <th>@lang('messages.category') @lang('messages.url')</th>
                     <th>@lang('messages.hero') @lang('messages.image')</th>
                     <th>@lang('messages.parent') @lang('messages.id')</th>
@@ -52,6 +58,9 @@
                     <th>{{ $category->id }}</th>
                     <td>
                         <a href="/admin/category/{{ $category->id }}">{{ $category->name }}</a>
+                    </td>
+                    <td>
+                        {{ $category->thumb_img }}
                     </td>
                     <td>
                         {{ $category->url }}

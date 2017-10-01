@@ -368,6 +368,8 @@ section.categories {
             }
             &:hover {
                 background: #fafafa;
+                transform: scale3d(1.1,1.1,1.1);
+                transition: transform 500ms;
                 img {
                     background: white;
                 }
@@ -545,6 +547,8 @@ section.products.none {
         }
         &:hover {
             background: #fafafa;
+            transform: scale3d(1.1,1.1,1.1);
+            transition: transform 500ms;
             img {
                 background: white;
             }
