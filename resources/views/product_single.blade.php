@@ -4,22 +4,51 @@
 
 @section('body_class', 'default product-page')
 
+
+<!-- <ol itemscope itemtype="http://schema.org/BreadcrumbList">
+  <li itemprop="itemListElement" itemscope
+      itemtype="http://schema.org/ListItem">
+    <a itemprop="item" href="https://example.com/dresses">
+    <span itemprop="name">Dresses</span></a>
+    <meta itemprop="position" content="1" />
+  </li>
+  <li itemprop="itemListElement" itemscope
+      itemtype="http://schema.org/ListItem">
+    <a itemprop="item" href="https://example.com/dresses/real">
+    <span itemprop="name">Real Dresses</span></a>
+    <meta itemprop="position" content="2" />
+  </li>
+</ol> -->
+
+
 @section('content')
 <main>
     <div class="product-single container" @include('partials.styles', ['styles' => $productSingleStyles])>
         <div class="crumb-wrapper row">
-                <div class="crumbs col-lg-8">
-                <a class="crumb" href="/"> Home </a>
-                <span> > </span>
-                @for($i=0; $i < count($product_categories); $i++)
-                    @foreach($product_categories[$i] as $pc)
-                        @if($pc->name)
-                            <a class="crumb" href="/category/{{ $pc->category_slug }}">{{ $pc->name }} </a>
-                            <span> > </span>
-                        @endif
-                    @endforeach
-                @endfor
-                </div>
+                <ol itemscope itemtype="http://schema.org/BreadcrumbList" class="crumbs col-lg-8">
+					<li class="d-inline-block" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+	                	<a itemprop="item" class="crumb" href="/">
+							<span itemprop="name">Home</span>
+						</a>
+	                	<span> > </span>
+					    <meta itemprop="position" content="1" />
+						
+					</li>
+	                @for($i=0; $i < count($product_categories); $i++)
+	                    @foreach($product_categories[$i] as $pc)
+	                        @if($pc->name)
+								<li class="d-inline-block" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+	                            	<a itemprop="item" class="crumb" href="/category/{{ $pc->category_slug }}">
+										<span itemprop="name">{{ $pc->name }}</span>
+									</a>
+	                            	<span> > </span>
+								    <meta itemprop="position" content="{{$i}}" />
+									
+								</li>
+	                        @endif
+	                    @endforeach
+	                @endfor
+                </ol>
                 <div class="col-lg-4 hidden-lg-down ta-r">
                     @include('partials.share')
                 </div>
@@ -34,19 +63,35 @@
                 <div class="specs-heading text-center">Specs</div>
                 <div class="row">
                     <div class="col-4"><label>Dimensions</label></div>
-                    <div class="col-8">{{ $product->dimensions }}</div>
+					@if (isset($product->dimensions))
+	                    <div class="col-8"><label>{{ $product->dimensions }}</label></div>
+					@else
+						<div class="col-8"></div>
+					@endif
                 </div>
                 <div class="row">
                     <div class="col-4"><label>Serving Size</label></div>
-                    <div class="col-8">{{ $product->serving_size }}</div>
+					@if (isset($product->serving_size))
+	                    <div class="col-8"><label>{{ $product->serving_size }}</label></div>
+					@else
+						<div class="col-8"></div>
+					@endif
                 </div>
                 <div class="row">
                     <div class="col-4"><label>Shelf Life</label></div>
-                    <div class="col-8">{{ $product->shelf_life }}</div>
+					@if (isset($product->shelf_life))
+	                    <div class="col-8"><label>{{ $product->shelf_life }}</label></div>
+					@else
+						<div class="col-8"></div>
+					@endif
                 </div>
                 <div class="row">
                     <div class="col-4"><label>Storage</label></div>
-                    <div class="col-8">{{ $product->storage }}</div>
+					@if (isset($product->storage))
+	                    <div class="col-8"><label>{{ $product->storage }}</label></div>
+					@else
+						<div class="col-8"></div>
+					@endif
                 </div>
                 <!--div class="row">
                     <div class="col-4"><label>color</label></div>
