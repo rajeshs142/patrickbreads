@@ -68,3 +68,7 @@ Route::resource('/admin/cataloguedetails', 'CataloguedetailsController');
 
 // Admin page - Catalogue brands
 Route::resource('/admin/cataloguebrands', 'CataloguebrandsController');
+
+
+Route::get('/sitemap', 'SiteMapController@index');
+Route::get('/sitemap.xml', 'SiteMapController@index');

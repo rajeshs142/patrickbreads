@@ -1,0 +1,2008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://patricksbreads.com.au/</loc>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/new-products</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/breads</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/sweets</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/pastries</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/savouries</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/cakes</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/gluten-free-range</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/catering-range</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/packaged-products</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/contact</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/Cakes</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/artisan-sourdough-rye-ciabatta</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/lebanese-bread</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/turkish-long-bagged</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/greek-pita-bread-10-pack</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/bread-crumbs-1-kg</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/white-brown-grain-bread-680g</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/raisin-bread-680g</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/white-cottage</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/brown-cottage</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/bread-loaves</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/bread-rolls</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/turkish-bread</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/sourdough-breads</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/bagels-and-scones</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/wraps</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/breads?page=2</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/breads?page=3</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/breads?page=4</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/breads?page=5</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/breads?page=6</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/breads?page=7</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/traditional-white-bread-900g</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/traditional-brown-bread-900g</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/traditional-wholemeal-bread-900g</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/traditional-rye-bread-900g</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/cottage-white-bread-900g</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/cottage-brown-bread-900g</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/cottage-whole-meal-bread-900g</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/cottage-rye-bread-900g</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/artisan-sourdough-white-ciabatta-1-3kg</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/artisan-sourdough-wholemeal-ciabatta-1-3kg</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/artisan-sourdough-sourdough-ciabatta-1-3kg</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/white-sourdough-bread</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/jumbo-brown-sourdough-bread-780g</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/jumbo-multi-grain-sourdough-bread-780g</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/raisin-bread-900g</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/banana-breads</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/muffins</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/friands</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/donuts</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/sweets?page=2</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/banana-bread-loaf</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/fruit-and-nut-bread</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/pear-raspberry-bread</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/chocolate-bread</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/mango-coconut-bread</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/blueberry-banana-bread-2kg</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/blueberry-muffin</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/apple-cinnamon-muffin</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/raspberry-muffin</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/chocolate-muffin</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/chocchip-muffin</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/orange-poppyseed-muffin</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/banana-muffin</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/raspberry-coconut-low-fat-muffin</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/bluberry-low-fat-muffin</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/carrot-and-walnut-low-fat-muffin</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/croissants</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/danish-pastries</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/scrolls</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/large-butter-croissant</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/artisan-straight-croissant</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/almond-croissant</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/chocolate-croissant</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/rhubarb-and-pear-croissant</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/apple-danish</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/blueberry-danish</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/cherry-danish</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/apricot-danish</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/cinnamon-scroll</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/nutella-banana-scroll</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/redvelvet-scroll</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/chocolate-scroll</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/cookies-cream-scroll</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/pies</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/quiches</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/triangle-filos</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/savouries?page=2</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/classic-meat-pie</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/chicken-vegitable-pie</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/potato-pie</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/tomato-pie</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/mushroom-pie</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/curry-pie</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/bacon-cheese-pie</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/sausage-rolls</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/spinach-feta-rolls</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/oz-premium-meat-pie-270g</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/pepper-steak-pie-270g</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/thai-chicken-curry-pie-270g</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/mexican-chilli-pie</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/scottish-shepherds-pie</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/chicken-leek-mushroom-fricas</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/roast-veg-pie-190g</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/cake-slices</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/single-serves</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/sweet-tarts</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/large-cakes</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/cookies</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/italian-specialities</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/cakes?page=2</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/cakes?page=3</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/cakes?page=4</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/cakes?page=5</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/cakes?page=6</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/brownie-slice-6pk</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/caramel-slice-6pk</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/apple-custard-slice-6pk</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/breakfast-slice-6pk</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/carrot-slice-6pk</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/fudge-slice-6pk</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/mint-slice-6pk</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/chocolate-mud-slice-6pk</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/tian-slice-6pk</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/haz-charlotte-slice-10pk</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/apple-crumble-slice-6pk</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/cherry-slice-10pk</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/caramel-slice-10-pk</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/peppermint-slice-10pk</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/bavarian-vanilla-slice-7pk</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/triple-choc-brownie-10pk</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/gluten-free-range?page=2</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/gf-apple-crumble-tart-pk6</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/gf-round-lemon-lime-tart-pk6</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/gf-mini-lemon-lime-tart--9pk-</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/friands-mixed-pk12</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/gf-almond-honey-slice</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/gf-cheesecake-raspberry-slice</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/gf-chilli-choc-fudge-slice</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/gf-brownie-slice-pk6</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/gf-caramel-slice-pk6</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/rice-loaf-900g</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/soy-n-linseed-900g</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/buckwheat-n-pumpkin-seed-900g</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/spinach-n-feta-900g</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/banana-bread</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/blueberry-banana-bread</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/carrot-n-walnut-banana-bread</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/catering-range?page=2</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/catering-range?page=3</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/mini-berliner-jam</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/mini-berliner-custard</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/mini-brioche</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/mini-danish-apple</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/mini-danish-apricot</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/mini-danish-pineapple</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/mini-danish-snail</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/mini-muffin-apple</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/mini-muffin-blueberry</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/mini-muffin-chocolate</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/mini-muffin-orange-poppy-seed</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/mini-muffin-raspberry</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/mini-tart-almond</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/mini-tart-nata</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/mini-tart-blueberry-ricotta</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/italian-breads</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/polish-breads</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/bread-rolls-bagged</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/packaged-products?page=2</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/pagnotta-bread</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/ring-bread</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/continental-vienna</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/spanissh-bread</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/pane-case-bread</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/820-h-or-made-sliced</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/nonnas-pane-dicasa-650g</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/nonnas-ciabatta--bagged--650-g</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/nonna-biscotti--4pk-</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/nonnas-pizza-square-or-round</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/australian-vienna</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/french-stick-450-g</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/brioche-bread</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/estonian-black</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/poznanski-polish-bread</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/mazowiecki-polish-bread</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/Cakes?page=2</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/Cakes?page=3</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/Cakes?page=4</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/Cakes?page=5</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/Cakes?page=6</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/artisan-sourdough-rye-ciabatta?page=2</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/lebanese-bread?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/lebanese-bread?page=3</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/lebanese-bread?page=4</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/tortilla-white</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/tortilla-tomato</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/tortilla-spinach-wrap</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/white-lebanese-bread</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/brown-lebanese-bread</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/greek-pita-bread</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/pizza-base-plain-7-inch</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/pizza-base-plain-10-inch</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/pizza-base-square</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/turkish-long-bagged?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/turkish-long-bagged?page=3</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/turkish-long-bagged?page=4</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/greek-pita-bread-10-pack?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/greek-pita-bread-10-pack?page=3</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/greek-pita-bread-10-pack?page=4</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/white-brown-grain-bread-680g?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/white-brown-grain-bread-680g?page=3</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/white-brown-grain-bread-680g?page=4</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/white-cottage?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/white-cottage?page=3</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/white-cottage?page=4</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/brown-cottage?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/brown-cottage?page=3</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/brown-cottage?page=4</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/bread-loaves?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/bread-rolls?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/bread-rolls?page=3</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/turkish-roll-large</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/turkish-oval-roll</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/brioche-roll-large</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/damper-roll-large</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/foccassia-roll-large</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/jumbo-ind-hamburger-12pk</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/jumbo-tiptop-hamburger-12pk</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/jumbo-seeded-gina-burger</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/jumbo-plain-gina-burger</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/flat-roll-white</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/flat-roll-brown</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/flat-roll-multi-grain</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/sour-dough-white-round-roll</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/sour-dough-multi-grain-round-roll</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/ciabatta-roll-white-roll</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/ciabatta-roll-brown-roll</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/turkish-round</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/turkish-oval</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/turkish-round-toddler</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/turkish-long</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/tukrish-sultana-long</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/turkish-wholemeal</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/schiacatta-flat-bread</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/sourdough-breads?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/ciabatta-sour-quinoa-soyabean-780g</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/sour-german-rye-sunflower-780g</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/organic-rye-wholemeal-sourdough-780g</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/sour-spelt-soya-linseed-780g</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/sour-spelt-fruit-walnut780g</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/sourdough-spelt-rye-780g</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/sour-kalamata-olive-basil-780g</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/fig-and-walnut-loaf-sourdough-780g</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/sourdough-white-780g</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/sour-d-wht-crusty-italian-780g</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/ciabatta-sour-quinoa-n-soya</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/ciabatta-sour-german-rye-blk-1-2kg</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/country-german-rye-600g</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/ciabatta-sourdough-wholemeal-1-2kg</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/organic-spelt-sour-cherry-raisin-loaf-1-2kg</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/ciabatta-sourdough-white-1-2kg</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/plain-scones-6pk</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/date-scone-6pk</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/plain-bagel</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/bluberry-bagel</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/poppyseed-bagel</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/wraps?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/wraps?page=3</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/wraps?page=4</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/lemon-tart-8cm</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/blueberry-ricotta-tart-8cm</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/fruit-tart-8cm</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/portuguese-tart-8cm</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/breads?page=1</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/italian-home-made-bread-820g</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/pane-di-casa-vienna</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/raisin-and-fig-bread</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/ciabatta-poppy-seed-roll</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/zoccoli-rolls</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/quinoa-sunflower-seed</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/german-rye-polenta-seed</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/white-roll</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/cha-cha-rectangle-roll</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/crusty-roll</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/rosetta-roll</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/montavani-roll</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/turkish-roll-toddler</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/brioche-roll-medium</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/damper-roll-medium</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/ciabatta-roll-medium</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/quinoa-sunflower-seed-sq</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/german-rye-polenta-seed-sq</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/harvest-roll</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/long-pannini-soft-roll</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/hamburger-roll</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/torpedo-roll-plain</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/torpedo-roll-sesame</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/torpedo-brown-roll</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/torpedo-multigrain-roll</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/ciab-sour-roll-quinoa-casa-160g</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/sandwich-roll-quinoa-soyabean</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/burger-roll-german-rye-polenta</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/sandwich-roll-german-rye-seed-120g</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/casa-sour-spelt-pumpkin-seeds-160g</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/burger-rolls-white-sesame</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/burger-rolls-quinoa-and-soyabean</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/sandwich-roll-white-120g</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/traditional-white-bread-900g?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/traditional-brown-bread-900g?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/traditional-wholemeal-bread-900g?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/traditional-rye-bread-900g?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/cottage-white-bread-900g?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/cottage-brown-bread-900g?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/cottage-whole-meal-bread-900g?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/cottage-rye-bread-900g?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/artisan-sourdough-white-ciabatta-1-3kg?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/artisan-sourdough-wholemeal-ciabatta-1-3kg?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/artisan-sourdough-sourdough-ciabatta-1-3kg?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/white-sourdough-bread?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/jumbo-brown-sourdough-bread-780g?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/jumbo-multi-grain-sourdough-bread-780g?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/raisin-bread-900g?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/pear-and-walnut-low-fat-muffin</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/raspberry-friand</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/almond-friand</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/orange-poppyseed-friand</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/chocolate-friand</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/lemon-coconut-friand</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/mango-friand</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/chocolate-donut</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/strawberry-donut</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/caramel-donut</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/pineapple-donut</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/long-custard-donut</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/tella-balls--mixed-flavours--pk12</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/tella-balls--nutella--pk12</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/tella-balls--caramel--pk12</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/tella-balls--jam--pk12</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/sweets?page=1</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/pies?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/lorraine-quiche</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/spinach-feta-quiche</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/vegitable-quiche</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/chicken-mushroom-quiche</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/mushroom-oregano-quiche</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/ham-and-cheese-triangle</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/chicken-and-mushroom-triangle</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/spinach-and-cheese-triangle</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/savouries?page=1</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/bacon-egg-sausage-pie</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/homestyle-classic-sausage-roll</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/classic-meat-pie?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/chicken-vegitable-pie?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/potato-pie?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/tomato-pie?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/mushroom-pie?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/curry-pie?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/bacon-cheese-pie?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/sausage-rolls?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/spinach-feta-rolls?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/oz-premium-meat-pie-270g?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/pepper-steak-pie-270g?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/thai-chicken-curry-pie-270g?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/mexican-chilli-pie?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/scottish-shepherds-pie?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/chicken-leek-mushroom-fricas?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/roast-veg-pie-190g?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/cake-slices?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/choc-top-mud-cake</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/cookies-cream</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/sticky-date</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/carrot-cake</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/blueberry-cheesecake</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/strawberry-cheesecake</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/mini-oreo-standing-tart</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/custard-cinamon-tart-10cm-6pk</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/lemon-tart-10cm-6pk</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/pasticiotti-lime-mixfruit-tart-8cm-6pk</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/lemon-meringue-tart-10cm-6pk</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/caramel-salted-tart-10cm-6pk</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/pineapple-tart-10cm-6pk</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/mixed-berry-tart-10cm-6pk</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/choclate-tart-10cm-6pk</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/pecan-tart-10cm-6pk</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/fruit-tart-10cm-6pk</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/large-cakes?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/baileys-cheesecake</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/blueberry-strawberry-cheesecake</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/lemon-cheesecake</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/new-york-cheesecake</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/bounty-cake-new</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/royal-chocolate-mousse-new</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/hazelnut-mousse</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/mars-tart</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/mortal-sin</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/oreo-mousse-tart</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/classic-mud-cake</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/tiramisu</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/vanilla-bliss-berry</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/blackforest</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/red-velvet</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/anzac-cookies</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/lemon-melting-moments</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/passionfruit-melting-moments</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/wagon-wheels-cookies</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/smarty-cookies</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/triple-chewy-choc</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/vienese--choc-tip-filled-with-jam-</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/macadamia-chocchip</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/mixed-cookies</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/hazelnut-doublechoc</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/florentines</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/macaroons-single-flavour-12pk</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/macaroons-mixed-flavour-12pk</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/cannoli-half-half-ricotta-6pk</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/cannoli-silicane-6pk</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/cannoli-vanilla-6pk</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/cannoli-chocolate-6pk</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/profiteroles-sml-vanilla-9pk</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/profiteroles-sml-choc-9pk</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/cakes?page=1</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/redvelvet-slice-7pk</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/vanilla-passion-fruit-slice-7pk</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/baby-mixed-cheesecakes</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/baby-newyork-cheesecake</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/mimosa</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/apple-and-blueberry-crumble-new</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/apple-frangipani-tart</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/banana-mango-cake</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/carrot-pineapple-cake</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/chocolate-pecan-pie</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/hummingbird-cake</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/lemon-and-lime-splice-tart</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/lemon-meringue-pie</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/royal-passionfruit-mousse-cake</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/pecan-pie</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/sticky-date-pudding</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/brownie-slice-6pk?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/caramel-slice-6pk?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/apple-custard-slice-6pk?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/breakfast-slice-6pk?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/carrot-slice-6pk?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/fudge-slice-6pk?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/mint-slice-6pk?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/chocolate-mud-slice-6pk?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/tian-slice-6pk?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/haz-charlotte-slice-10pk?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/apple-crumble-slice-6pk?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/cherry-slice-10pk?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/caramel-slice-10-pk?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/peppermint-slice-10pk?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/bavarian-vanilla-slice-7pk?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/triple-choc-brownie-10pk?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/category/gluten-free-range?page=1</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/coconut-n-raspberry-banana-bread</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/oz-premium-beef-pie</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/thai-chicken-curry-pie</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/roast-vegetable-pie</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/shepherds-pie</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/mexican-pie</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/gf-apple-crumble-tart-pk6?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/gf-apple-crumble-tart-pk6?page=3</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/gf-apple-crumble-tart-pk6?page=4</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/gf-round-lemon-lime-tart-pk6?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/gf-round-lemon-lime-tart-pk6?page=3</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/gf-round-lemon-lime-tart-pk6?page=4</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/gf-mini-lemon-lime-tart--9pk-?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/friands-mixed-pk12?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/friands-mixed-pk12?page=3</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/friands-mixed-pk12?page=4</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/gf-almond-honey-slice?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/gf-almond-honey-slice?page=3</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/gf-almond-honey-slice?page=4</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/gf-cheesecake-raspberry-slice?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/gf-chilli-choc-fudge-slice?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/gf-brownie-slice-pk6?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/gf-brownie-slice-pk6?page=3</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/gf-brownie-slice-pk6?page=4</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/gf-caramel-slice-pk6?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/gf-caramel-slice-pk6?page=3</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/gf-caramel-slice-pk6?page=4</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/rice-loaf-900g?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/rice-loaf-900g?page=3</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/rice-loaf-900g?page=4</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/soy-n-linseed-900g?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/soy-n-linseed-900g?page=3</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/soy-n-linseed-900g?page=4</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/buckwheat-n-pumpkin-seed-900g?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/spinach-n-feta-900g?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/banana-bread?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/banana-bread?page=3</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/banana-bread?page=4</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/blueberry-banana-bread?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/blueberry-banana-bread?page=3</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/blueberry-banana-bread?page=4</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/carrot-n-walnut-banana-bread?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/carrot-n-walnut-banana-bread?page=3</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://patricksbreads.com.au/item/carrot-n-walnut-banana-bread?page=4</loc>
+  <priority>0.51</priority>
+</url>
+</urlset>
