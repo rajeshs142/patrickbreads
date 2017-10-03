@@ -34,7 +34,7 @@
 					    <meta itemprop="position" content="1" />
 						
 					</li>
-	                @for($i=0; $i < count($product_categories); $i++)
+	                @for($i=0, $j=2; $i < count($product_categories); $i++, $j++)
 	                    @foreach($product_categories[$i] as $pc)
 	                        @if($pc->name)
 								<li class="d-inline-block" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
@@ -42,7 +42,7 @@
 										<span itemprop="name">{{ $pc->name }}</span>
 									</a>
 	                            	<span> > </span>
-								    <meta itemprop="position" content="{{$i}}" />
+								    <meta itemprop="position" content="{{$j}}" />
 									
 								</li>
 	                        @endif
