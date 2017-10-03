@@ -272,7 +272,9 @@ section.categories {
         transition: all 300ms;
         padding: 20px 0; }
       section.categories li .category-wrapper:hover {
-        background: #fafafa; }
+        background: #fafafa;
+        transform: scale3d(1.1, 1.1, 1.1);
+        transition: transform 500ms; }
         section.categories li .category-wrapper:hover img {
           background: white; }
 
@@ -404,7 +406,9 @@ section.products.none {
       overflow: hidden;
       white-space: nowrap; }
     .products .product-wrapper:hover {
-      background: #fafafa; }
+      background: #fafafa;
+      transform: scale3d(1.1, 1.1, 1.1);
+      transition: transform 500ms; }
       .products .product-wrapper:hover img {
         background: white; }
 
