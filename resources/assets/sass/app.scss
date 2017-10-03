@@ -345,6 +345,7 @@ section.categories {
             padding: 0 32px 47px 32px;
             border: 1px solid #eee;
             box-shadow: 1px 2px 2px #eee;
+            transition: transform 200ms;
             a {
                 color: inherit;
                 height: 200px;
@@ -524,6 +525,7 @@ section.products.none {
         padding: 0 32px 47px 32px;
         border: 1px solid #eee;
         box-shadow: 1px 2px 2px #eee;
+        transition: transform 200ms;
         a {
             height: 200px;
             display: inline-block;
