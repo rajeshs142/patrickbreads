@@ -9,16 +9,31 @@
     <div class="category" @include('partials.styles', ['styles' => $categoriesStyles])>
         <div class="wrapper container">
             <div class="item-heading-wrapper row">
-                <div class="crumbs col-lg-8">
-                    <a class="crumb" href="/"> Home </a>
-                    <span> &gt; </span>
+                <ol itemscope itemtype="http://schema.org/BreadcrumbList" class="crumbs col-lg-8">
+				    <li class="d-inline-block" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                    	<a itemprop="item" class="crumb" href="/">
+							<span itemprop="name">Home</span>
+		                    <span> &gt; </span>
+						</a>
+				    	<meta itemprop="position" content="1" />
+					</li>
                     @if($parent_category)
-                    <a class="crumb" href="/category/{{ $parent_category->category_slug }}"> {{ $parent_category->name }} </a>
-                    <span> &gt; </span>
+				    <li class="d-inline-block" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                    	<a itemprop="item" class="crumb" href="/category/{{ $parent_category->category_slug }}">
+							<span itemprop="name"> {{ $parent_category->name }} </span>
+		                    <span> &gt; </span>
+						</a>
+				    	<meta itemprop="position" content="2" />
+					</li>
                     @endif
-                    <a class="crumb" href="/category/{{ $category->category_slug }}"> {{ $category->name }} </a>
-                    <span> &gt; </span>
-                </div>
+				    <li class="d-inline-block" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                    	<a itemprop="item" class="crumb" href="/category/{{ $category->category_slug }}">
+							<span itemprop="name"> {{ $category->name }} </span>
+		                    <span> &gt; </span>
+						</a>
+				    	<meta itemprop="position" content="2" />
+					</li>
+                </ol>
                 <div class="col-lg-4 hidden-lg-down ta-r">
                     @include('partials.share')
                 </div>
