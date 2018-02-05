@@ -253,7 +253,8 @@ section.categories {
       background: white;
       padding: 0 32px 47px 32px;
       border: 1px solid #eee;
-      box-shadow: 1px 2px 2px #eee; }
+      box-shadow: 1px 2px 2px #eee;
+      transition: transform 200ms; }
       section.categories li .category-wrapper a {
         color: inherit;
         height: 200px;
@@ -387,9 +388,10 @@ section.products.none {
     background: white;
     padding: 0 32px 47px 32px;
     border: 1px solid #eee;
-    box-shadow: 1px 2px 2px #eee; }
+    box-shadow: 1px 2px 2px #eee;
+    transition: transform 200ms; }
     .products .product-wrapper a {
-      height: 200px;
+      height: 248px;
       display: inline-block;
       vertical-align: top; }
     .products .product-wrapper img {
@@ -402,9 +404,7 @@ section.products.none {
       font-variant-caps: small-caps;
       font-size: 18px;
       padding: 20px 0;
-      width: 200px;
-      overflow: hidden;
-      white-space: nowrap; }
+      width: 200px; }
     .products .product-wrapper:hover {
       background: #fafafa;
       transform: scale3d(1.1, 1.1, 1.1);

@@ -174,53 +174,53 @@ $(function() {
 });
 
 // feedback form submission
-$(document).ready(function() {
-
-    $.ajaxSetup({
-        headers: {
-            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-        }
-    });
-    $('.contact-btn').on('click', function(event) {
-
-        $('.form-group').removeClass('has-error');
-        $('.help-block').remove();
-
-        var formData = {
-            'name'                  : $('input[name=name]').val(),
-            'email'                 : $('input[name=email]').val(),
-            'message'               : $('textarea[name=message]').val(),
-            '_token'                : $('input[name=_token]').val(),
-            'g-recaptcha-response'  : $('textarea[name=g-recaptcha-response]').val()
-        };
-
-        $.ajax({
-            type        : 'POST',
-            url         : '/contact/store',
-            data        : formData,
-            dataType    : 'json',
-            encode      : true,
-            success: function(data) {
-                if(data && data.message)
-                    $('.contact-form .modal-body').prepend('<div class="alert alert-success">' + data.message + '</div>');
-            },
-            error: function(data) {
-                console.log(data);
-                var responseText = data && data.responseText;
-                responseText = jQuery.parseJSON(responseText);
-                var errors = responseText && responseText.message;
-                
-                if (errors) {
-                    for (let x in errors) {
-                        var node = $('.'+x);
-                        node.addClass('has-error');
-                        var newNode = $('<span class="help-block"><strong>'+errors[x][0]+'</strong></span>');
-                        $('.'+x+' .col-sm-12').append(newNode);
-                    }
-                }
-            }
-        });
-        event.preventDefault();
-    });
-
-});
+// $(document).ready(function() {
+//
+//     $.ajaxSetup({
+//         headers: {
+//             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+//         }
+//     });
+//     $('.contact-btn').on('click', function(event) {
+//
+//         $('.form-group').removeClass('has-error');
+//         $('.help-block').remove();
+//
+//         var formData = {
+//             'name'                  : $('input[name=name]').val(),
+//             'email'                 : $('input[name=email]').val(),
+//             'message'               : $('textarea[name=message]').val(),
+//             '_token'                : $('input[name=_token]').val(),
+//             'g-recaptcha-response'  : $('textarea[name=g-recaptcha-response]').val()
+//         };
+//
+//         $.ajax({
+//             type        : 'POST',
+//             url         : '/contact/store',
+//             data        : formData,
+//             dataType    : 'json',
+//             encode      : true,
+//             success: function(data) {
+//                 if(data && data.message)
+//                     $('.contact-form .modal-body').prepend('<div class="alert alert-success">' + data.message + '</div>');
+//             },
+//             error: function(data) {
+//                 console.log(data);
+//                 var responseText = data && data.responseText;
+//                 responseText = jQuery.parseJSON(responseText);
+//                 var errors = responseText && responseText.message;
+//
+//                 if (errors) {
+//                     for (let x in errors) {
+//                         var node = $('.'+x);
+//                         node.addClass('has-error');
+//                         var newNode = $('<span class="help-block"><strong>'+errors[x][0]+'</strong></span>');
+//                         $('.'+x+' .col-sm-12').append(newNode);
+//                     }
+//                 }
+//             }
+//         });
+//         event.preventDefault();
+//     });
+//
+// });
