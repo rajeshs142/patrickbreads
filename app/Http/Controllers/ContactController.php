@@ -82,12 +82,13 @@ class ContactController extends Controller
             'name' => 'required',
             'message' => 'required',
             'email' => 'required',
+            'g-recaptcha-response'=>'required|recaptcha'
         ]);
 
         if($data) {
             Mail::send('partials.feedback_message', ['data' => $data], function($message) use ($data) {
                 $message->from($data['email'], $data['name']);
-                $message->to(env('MAIL_USERNAME'), env('MAIL_NAME'))->subject('feedback from '.$data['name']);
+                $message->to(env('MAIL_USERNAME'), env('MAIL_NAME'))->subject('Booking from '.$data['name']);
             });
         }
 
@@ -109,7 +110,8 @@ class ContactController extends Controller
         $this->validate($request, [
             'name' => 'required',
             'message' => 'required',
-            'email' => 'required',
+            'email' => 'required|email',
+            'g-recaptcha-response'=>'required|recaptcha'
         ]);
 
         if($data) {
