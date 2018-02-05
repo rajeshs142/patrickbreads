@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sortable/0.8.0/css/sortable-theme-bootstrap.min.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sortable/0.8.0/js/sortable.min.js"></script>
 @section('content')
-<div class="container product admin stories">
+<div class="container-fluid product admin stories">
     <div class="col-md-10 offset-md-1">
         <div>
             <h4 class="d-ib">@lang('messages.product') @lang('messages.list')</h4>
@@ -24,6 +24,10 @@
                     <th>#</a></th>
                     <th>@lang('messages.name')</th>
                     <th>@lang('messages.category')</th>
+                    <th>@lang('messages.dimensions')</th>
+                    <th>@lang('messages.serving_size')</th>
+                    <th>@lang('messages.shelf_life')</th>
+                    <th>@lang('messages.storage')</th>
                     <th>@lang('messages.author')</th>
                     <th>@lang('messages.tags')</th>
                     <th>@lang('messages.updated_at')</th>
@@ -45,6 +49,10 @@
                         <a href="product/{{ $product->id }}">{{ $product->name }}</a>
                     </td>
                     <td>{{ $product->category }}</td>
+                    <td>{{ $product->dimensions }}</td>
+                    <td>{{ $product->serving_size }}</td>
+                    <td>{{ $product->shelf_life }}</td>
+                    <td>{{ $product->storage }}</td>
                     <td>{{ $product->username }}</td>
                     <td>{{ $product->tags }}</td>
                     <td>{{ $product->updated_at }}</td>

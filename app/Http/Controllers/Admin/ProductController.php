@@ -43,7 +43,7 @@ class ProductController extends Controller
                     })
                     ->join('category', 'product.category_id', '=', 'category.id')
                     ->join('users', 'product.created_by', '=', 'users.id')
-                    ->select('product.id', 'product.name', 'product.tags', 'category.name as category', 'users.name as username', 'product.updated_at' )
+                    ->select('product.id', 'product.name', 'product.dimensions', 'product.serving_size', 'product.shelf_life', 'product.storage', 'product.tags', 'category.name as category', 'users.name as username', 'product.updated_at' )
                     ->orderBy($sort, 'desc')
                     ->get();
 
