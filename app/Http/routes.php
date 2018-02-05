@@ -49,8 +49,8 @@ Route::get('/search', 'SearchController@index');
 
 // contact
 Route::get('/contact', 'ContactController@index');
-Route::post('/contact/store', 'FooterController@store');
-Route::post('/contact/sendmessage', 'ContactController@store');
+// Route::post('/contact/store', 'FooterController@store');
+Route::post('/contact/sendmessage', 'ContactController@sendmessage');
 
 Route::get('/api/products', function() {
     return Session::get('items');

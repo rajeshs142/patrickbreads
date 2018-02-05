@@ -8,6 +8,8 @@ use App\Http\Requests;
 
 use Mail;
 
+use Session;
+
 use Illuminate\Support\Facades\Input;
 use Validator;
 //use App\Http\JsonResponse;
@@ -32,7 +34,14 @@ class ContactController extends Controller
             // 'g-recaptcha-response' => 'required|recaptcha'
         ]);
         
-        
+        print_r($request->name);
+        $mail->SMTPOptions = array(
+            'ssl' => array(
+                'verify_peer' => false,
+                'verify_peer_name' => false,
+                'allow_self_signed' => true
+            )
+        );
         print_r($validator->fails());
         if($validator->fails()) {
             $errors = $validator->errors();
@@ -60,20 +69,30 @@ class ContactController extends Controller
     
     public function sendmessage(Request $request)
     {
-        print_r('eeeeeeeeeeeeeeeeeeeeeeeeeeee');
-        $data = Input::all();
+        // $data = Input::all();
+        $data = array(
+            'email' => $request->email,
+            'name' => $request->name,
+            'message' => $request->message,
+            'phone' => $request->phone
+        );
+
+        // print_r($data);
         $this->validate($request, [
             'name' => 'required',
             'message' => 'required',
             'email' => 'required',
         ]);
+
         if($data) {
             Mail::send('partials.feedback_message', ['data' => $data], function($message) use ($data) {
                 $message->from($data['email'], $data['name']);
                 $message->to(env('MAIL_USERNAME'), env('MAIL_NAME'))->subject('feedback from '.$data['name']);
             });
         }
-        return redirect()->action('HomeController@index');
+
+        Session::flash('success', 'Email sent successfully');
+        return redirect('contact');
     }
 
 }
