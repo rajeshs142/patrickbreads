@@ -527,7 +527,8 @@ section.products.none {
         box-shadow: 1px 2px 2px #eee;
         transition: transform 200ms;
         a {
-            height: 200px;
+//            height: 200px;
+            height: 248px;
             display: inline-block;
             vertical-align: top;
         }
@@ -544,8 +545,8 @@ section.products.none {
             font-size: 18px;
             padding: 20px 0;
             width: 200px;
-            overflow: hidden;
-            white-space: nowrap;
+//            overflow: hidden;
+//            white-space: nowrap;
         }
         &:hover {
             background: #fafafa;
