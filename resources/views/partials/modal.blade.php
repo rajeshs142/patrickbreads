@@ -1,6 +1,6 @@
 <div class="modal fade" id="customerFeedback" tabindex="-1" role="dialog" aria-labelledby="customerFeedbackLabel">
   <div class="modal-dialog" role="document">
-  	<form  action="/contact/store" method="post" class="contact-form form-horizontal">
+  	<form  action="/contact/booknow" method="post" class="contact-form form-horizontal">
         <div class="modal-content">
           <div class="modal-header">
             <h4 class="modal-title" id="customerFeedbackLabel">Become our customer today.</h4>

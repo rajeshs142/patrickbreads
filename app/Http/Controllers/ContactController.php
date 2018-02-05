@@ -66,7 +66,35 @@ class ContactController extends Controller
             ]);
         }
     }
-    
+
+    public function booknow(Request $request)
+    {
+        // $data = Input::all();
+        $data = array(
+            'email' => $request->email,
+            'name' => $request->name,
+            'message' => $request->message,
+            'phone' => $request->phone
+        );
+
+        // print_r($data);
+        $this->validate($request, [
+            'name' => 'required',
+            'message' => 'required',
+            'email' => 'required',
+        ]);
+
+        if($data) {
+            Mail::send('partials.feedback_message', ['data' => $data], function($message) use ($data) {
+                $message->from($data['email'], $data['name']);
+                $message->to(env('MAIL_USERNAME'), env('MAIL_NAME'))->subject('feedback from '.$data['name']);
+            });
+        }
+
+        Session::flash('success', 'Email sent successfully');
+        return redirect()->action('HomeController@index');
+    }
+
     public function sendmessage(Request $request)
     {
         // $data = Input::all();
